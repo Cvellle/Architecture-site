@@ -1,0 +1,20 @@
+E evo jos par slika za pojedinacne stanove. Stan 2 smo uradili i sad je ovde za 1, 3, 4 i 5, s'tim da za stan 1 fali tablica pa stavi samo sliku.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+A u drugom folderu su slike za galeriju, na Index stranici pri dnu ima jedna galerija pa samo treba da se zameni.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Stavio sam i folder "ostale slike" pa one iduna par razlicitih mesta:
+- family_1.jpg - ide na drugu stranicu "O Nama" odmah pored teksta gde pise "Novi pogled....", tu je sad neka slika zenske koja se smeje u drustvu gomile muskaraca :)
+
+- family_2.jpg - ide odmah ospod u sledecem delu gde pored u tekstu pise u naslovu "Vasa prica"
+
+- family_3.jpg - ide dalje ispod, pored teksta gde pise u naslovu "Vase vrednosti"
+
+- family_3.jpg - ide dalje odmah ispod, pored teksta gde pise u naslovu "Vizija"
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Sredio sam isto slike "tipovi stanova", to samo treba da se zamene one slike na stranici stanovi. Sve te slike sam stavio da budu iste velicine i isti odnos kao slike sa template-a, pa bi trebalo da se uklopi lepo

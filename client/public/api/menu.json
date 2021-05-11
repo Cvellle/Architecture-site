@@ -15,16 +15,6 @@
         "children": []
     },
     {
-        "name": "Kuće",
-        "link": "/kuce",
-        "children": []
-    },
-    {
-        "name": "Garaže",
-        "link": "/garaze",
-        "children": []
-    },
-    {
         "name": "Kontakt",
         "link": "/kontakt",
         "children": []

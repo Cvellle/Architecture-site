@@ -1,0 +1,284 @@
+[
+    {
+        "id": 290,
+        "title": "Stan-1, osnova-1",
+        "date": "December 21, 2018",
+        "images": {
+            "thumbnail": "./assets/images/apartment/thunmbnails/tip_1.jpg",
+            "full": "./assets/images/apartment/thunmbnails/tip_1.jpg"
+        },
+        "gallery": [
+            "./assets/images/apartment/Stan-1-osnova-1.jpg"
+        ],
+        "description": "STAN 01 - dvosoban",
+        "rooms": [
+            {
+                "room": "dnevni boravak s trpezarijom",
+                "povrsina": 21.51,
+                "obim": 21.68,
+                "pod": "granitne pločice"
+            },
+            {
+                "room": "kuhinja",
+                "povrsina": 6.81,
+                "obim": 11.06,
+                "pod": "granitne pločice"
+            },
+            {
+                "room": "ostava",
+                "povrsina": 2.03,
+                "obim": 6.9,
+                "pod": "parket"
+            },
+            {
+                "room": "dnevni boravak",
+                "povrsina": 11.02,
+                "obim": 13.32,
+                "pod": "parket"
+            },
+            {
+                "room": "kupatilo",
+                "povrsina": 3.91,
+                "obim": 8.64,
+                "pod": "parket"
+            },
+            {
+                "room": "terasa",
+                "povrsina": 4.66,
+                "obim": "/",
+                "pod": "granitne pločice"
+            }
+        ],
+        "netoPovrsina": {
+            "zatvorena": 46.18,
+            "umanjenjeZ": 3,
+            "otvorena": 4.66,
+            "umanjenjeO": 0,
+            "ukupna": 49.45
+        },
+        "content": "<p><strong>Introducing single apartment, the stunning new addition to the downtown Manhattan skyline. A perfect blend of breathtaking architecture designed, with awe-inspiring interiors envisioned</strong></p>\n<p>Sleek and sophisticated, MaisonCo offers qualities always coveted, but rarely obtained in the finest New York rental residences \u2013 a unique blend of generously proportioned interiors and the enjoyment of Nassau Club over 10,000 square feet of indoor and outdoor amenities creatively conceived to enhance your exceptional FiDi lifestyle.</p>\n<h3>Delivering High Quality Projects</h3>\n<p>Staying calm, composed and maintaining strong self esteem in today\u2019s tough environment can be difficult but is not impossible if you follow a few simple guidelines. Here are 6 tips you can use as a starter guide to self improvement.</p>\n<p>Everything and everyone else around you can affect your self esteem. Other people can deliberately or inadvertently damage your self image. Unchecked people and circumstances can ultimately destroy your</p>\n<ul>\n<li><strong>Additional service including linen and room amenities as described above</strong></li>\n<li><strong>Same day laundry and valet service</strong></li>\n<li><strong>High-speed internet and WiFi access</strong></li>\n<li><strong>Private condominium reception desk</strong></li>\n<li><strong>Luxury furnishings</strong></li>\n<li><strong>Meeting rooms and catering facilities</strong></li>\n</ul>\n<p>Healthy self esteem originates in the environment found in the: family, school, peer group, work place, and community. There are certain characteristics of your environment that need to be present in order for self esteem to be fostered and grow.</p>\n<p>The main component of a healthy environment for self esteem is that it needs to be nurturing. It should provide unconditional warmth, love, and caring. It needs to provide the realization that other people are recognized as deserving to be nurtured, reinforced, rewarded, and bonded to.</p>\n",
+        "excerpt": "<p><strong>Introducing single apartment, the stunning new addition to the downtown Manhattan skyline. A perfect blend of breathtaking architecture designed, with awe-inspiring interiors envisioned</strong></p>\n<p>Sleek and sophisticated, MaisonCo offers qualities always coveted, but rarely obtained in the finest New York rental residences \u2013 a unique blend of generously proportioned interiors and the enjoyment of Nassau Club over 10,000 square feet of indoor and outdoor amenities creatively conceived to enhance your exceptional FiDi lifestyle.</p>\n<h3>Delivering High Quality Projects</h3>\n<p>Staying calm, composed and maintaining strong self esteem in today\u2019s tough environment can be difficult but is not impossible if you follow a few simple guidelines. Here are 6 tips you can use as a starter guide to self improvement.</p>\n<p>Everything and everyone else around you can affect your self esteem. Other people can deliberately or inadvertently damage your self image. Unchecked people and circumstances can ultimately destroy your</p>\n<ul>\n<li><strong>Additional service including linen and room amenities as described above</strong></li>\n<li><strong>Same day laundry and valet service</strong></li>\n<li><strong>High-speed internet and WiFi access</strong></li>\n<li><strong>Private condominium reception desk</strong></li>\n<li><strong>Luxury furnishings</strong></li>\n<li><strong>Meeting rooms and catering facilities</strong></li>\n</ul>\n<p>Healthy self esteem originates in the environment found in the: family, school, peer group, work place, and community. There are certain characteristics of your environment that need to be present in order for self esteem to be fostered and grow.</p>\n<p>The main component of a healthy environment for self esteem is that it needs to be nurturing. It should provide unconditional warmth, love, and caring. It needs to provide the realization that other people are recognized as deserving to be nurtured, reinforced, rewarded, and bonded to.</p>\n"
+    },
+    {
+        "id": 289,
+        "title": "Stan-2, osnova-2",
+        "date": "December 21, 2018",
+        "images": {
+            "thumbnail": "./assets/images/apartment/thunmbnails/tip_2.jpg",
+            "full": "./assets/images/apartment/thunmbnails/tip_2.jpg"
+        },
+        "gallery": [
+            "./assets/images/apartment/Stan-2-osnova-1.jpg"
+        ],
+        "description": "STAN 02 - dvosoban",
+        "rooms": [
+            {
+                "room": "dnevni boravak s trpezarijom",
+                "povrsina": 21.51,
+                "obim": 21.68,
+                "pod": "granitne pločice"
+            },
+            {
+                "room": "kuhinja",
+                "povrsina": 6.81,
+                "obim": 11.06,
+                "pod": "granitne pločice"
+            },
+            {
+                "room": "ostava",
+                "povrsina": 2.03,
+                "obim": 6.9,
+                "pod": "parket"
+            },
+            {
+                "room": "dnevni boravak",
+                "povrsina": 11.02,
+                "obim": 13.32,
+                "pod": "parket"
+            },
+            {
+                "room": "kupatilo",
+                "povrsina": 3.91,
+                "obim": 8.64,
+                "pod": "parket"
+            },
+            {
+                "room": "terasa",
+                "povrsina": 4.66,
+                "obim": "/",
+                "pod": "granitne pločice"
+            }
+        ],
+        "netoPovrsina": {
+            "zatvorena": 46.18,
+            "umanjenjeZ": 3,
+            "otvorena": 4.66,
+            "umanjenjeO": 0,
+            "ukupna": 49.45
+        },
+        "content": "<p><strong>Introducing single apartment, the stunning new addition to the downtown Manhattan skyline. A perfect blend of breathtaking architecture designed, with awe-inspiring interiors envisioned</strong></p>\n<p>Sleek and sophisticated, MaisonCo offers qualities always coveted, but rarely obtained in the finest New York rental residences \u2013 a unique blend of generously proportioned interiors and the enjoyment of Nassau Club over 10,000 square feet of indoor and outdoor amenities creatively conceived to enhance your exceptional FiDi lifestyle.</p>\n<h3>Delivering High Quality Projects</h3>\n<p>Staying calm, composed and maintaining strong self esteem in today\u2019s tough environment can be difficult but is not impossible if you follow a few simple guidelines. Here are 6 tips you can use as a starter guide to self improvement.</p>\n<p>Everything and everyone else around you can affect your self esteem. Other people can deliberately or inadvertently damage your self image. Unchecked people and circumstances can ultimately destroy your</p>\n<ul>\n<li><strong>Additional service including linen and room amenities as described above</strong></li>\n<li><strong>Same day laundry and valet service</strong></li>\n<li><strong>High-speed internet and WiFi access</strong></li>\n<li><strong>Private condominium reception desk</strong></li>\n<li><strong>Luxury furnishings</strong></li>\n<li><strong>Meeting rooms and catering facilities</strong></li>\n</ul>\n<p>Healthy self esteem originates in the environment found in the: family, school, peer group, work place, and community. There are certain characteristics of your environment that need to be present in order for self esteem to be fostered and grow.</p>\n<p>The main component of a healthy environment for self esteem is that it needs to be nurturing. It should provide unconditional warmth, love, and caring. It needs to provide the realization that other people are recognized as deserving to be nurtured, reinforced, rewarded, and bonded to.</p>\n",
+        "excerpt": "<p><strong>Introducing single apartment, the stunning new addition to the downtown Manhattan skyline. A perfect blend of breathtaking architecture designed, with awe-inspiring interiors envisioned</strong></p>\n<p>Sleek and sophisticated, MaisonCo offers qualities always coveted, but rarely obtained in the finest New York rental residences \u2013 a unique blend of generously proportioned interiors and the enjoyment of Nassau Club over 10,000 square feet of indoor and outdoor amenities creatively conceived to enhance your exceptional FiDi lifestyle.</p>\n<h3>Delivering High Quality Projects</h3>\n<p>Staying calm, composed and maintaining strong self esteem in today\u2019s tough environment can be difficult but is not impossible if you follow a few simple guidelines. Here are 6 tips you can use as a starter guide to self improvement.</p>\n<p>Everything and everyone else around you can affect your self esteem. Other people can deliberately or inadvertently damage your self image. Unchecked people and circumstances can ultimately destroy your</p>\n<ul>\n<li><strong>Additional service including linen and room amenities as described above</strong></li>\n<li><strong>Same day laundry and valet service</strong></li>\n<li><strong>High-speed internet and WiFi access</strong></li>\n<li><strong>Private condominium reception desk</strong></li>\n<li><strong>Luxury furnishings</strong></li>\n<li><strong>Meeting rooms and catering facilities</strong></li>\n</ul>\n<p>Healthy self esteem originates in the environment found in the: family, school, peer group, work place, and community. There are certain characteristics of your environment that need to be present in order for self esteem to be fostered and grow.</p>\n<p>The main component of a healthy environment for self esteem is that it needs to be nurturing. It should provide unconditional warmth, love, and caring. It needs to provide the realization that other people are recognized as deserving to be nurtured, reinforced, rewarded, and bonded to.</p>\n"
+    },
+    {
+        "id": 288,
+        "title": "Stan-3, osnova-3",
+        "gallery": [
+            "./assets/images/apartment/Stan-3-osnova-1.jpg"
+        ],
+        "description": "STAN 02 - dvosoban",
+        "rooms": [
+            {
+                "room": "hodnik",
+                "povrsina": 4.21,
+                "obim": 8.34,
+                "pod": "granitne pločice"
+            },
+            {
+                "room": "višenamenska prostorija",
+                "povrsina": 25.25,
+                "obim": 21.96,
+                "pod": "parket"
+            },
+            {
+                "room": "soba",
+                "povrsina": 11.81,
+                "obim": 13.76,
+                "pod": "parket"
+            },
+            {
+                "room": "soba",
+                "povrsina": 9.07,
+                "obim": 12.24,
+                "pod": "parket"
+            },
+            {
+                "room": "kupatilo",
+                "povrsina": 4.48,
+                "obim": 8.80,
+                "pod": "granitne pločice"
+            },
+            {
+                "room": "terasa",
+                "povrsina": 3.11,
+                "obim": "/",
+                "pod": "granitne pločice"
+            }
+        ],
+        "netoPovrsina": {
+            "zatvorena": 54.82,
+            "umanjenjeZ": 3,
+            "otvorena": 3.11,
+            "umanjenjeO": 0,
+            "ukupna": 49.45
+        },
+        "date": "December 21, 2018",
+        "images": {
+            "thumbnail": "./assets/images/apartment/thunmbnails/tip_3.jpg",
+            "full": "./assets/images/apartment/thunmbnails/tip_3.jpg"
+        },
+        "content": "<p><strong>Introducing single apartment, the stunning new addition to the downtown Manhattan skyline. A perfect blend of breathtaking architecture designed, with awe-inspiring interiors envisioned</strong></p>\n<p>Sleek and sophisticated, MaisonCo offers qualities always coveted, but rarely obtained in the finest New York rental residences \u2013 a unique blend of generously proportioned interiors and the enjoyment of Nassau Club over 10,000 square feet of indoor and outdoor amenities creatively conceived to enhance your exceptional FiDi lifestyle.</p>\n<h3>Delivering High Quality Projects</h3>\n<p>Staying calm, composed and maintaining strong self esteem in today\u2019s tough environment can be difficult but is not impossible if you follow a few simple guidelines. Here are 6 tips you can use as a starter guide to self improvement.</p>\n<p>Everything and everyone else around you can affect your self esteem. Other people can deliberately or inadvertently damage your self image. Unchecked people and circumstances can ultimately destroy your</p>\n<ul>\n<li><strong>Additional service including linen and room amenities as described above</strong></li>\n<li><strong>Same day laundry and valet service</strong></li>\n<li><strong>High-speed internet and WiFi access</strong></li>\n<li><strong>Private condominium reception desk</strong></li>\n<li><strong>Luxury furnishings</strong></li>\n<li><strong>Meeting rooms and catering facilities</strong></li>\n</ul>\n<p>Healthy self esteem originates in the environment found in the: family, school, peer group, work place, and community. There are certain characteristics of your environment that need to be present in order for self esteem to be fostered and grow.</p>\n<p>The main component of a healthy environment for self esteem is that it needs to be nurturing. It should provide unconditional warmth, love, and caring. It needs to provide the realization that other people are recognized as deserving to be nurtured, reinforced, rewarded, and bonded to.</p>\n",
+        "excerpt": "<p><strong>Introducing single apartment, the stunning new addition to the downtown Manhattan skyline. A perfect blend of breathtaking architecture designed, with awe-inspiring interiors envisioned</strong></p>\n<p>Sleek and sophisticated, MaisonCo offers qualities always coveted, but rarely obtained in the finest New York rental residences \u2013 a unique blend of generously proportioned interiors and the enjoyment of Nassau Club over 10,000 square feet of indoor and outdoor amenities creatively conceived to enhance your exceptional FiDi lifestyle.</p>\n<h3>Delivering High Quality Projects</h3>\n<p>Staying calm, composed and maintaining strong self esteem in today\u2019s tough environment can be difficult but is not impossible if you follow a few simple guidelines. Here are 6 tips you can use as a starter guide to self improvement.</p>\n<p>Everything and everyone else around you can affect your self esteem. Other people can deliberately or inadvertently damage your self image. Unchecked people and circumstances can ultimately destroy your</p>\n<ul>\n<li><strong>Additional service including linen and room amenities as described above</strong></li>\n<li><strong>Same day laundry and valet service</strong></li>\n<li><strong>High-speed internet and WiFi access</strong></li>\n<li><strong>Private condominium reception desk</strong></li>\n<li><strong>Luxury furnishings</strong></li>\n<li><strong>Meeting rooms and catering facilities</strong></li>\n</ul>\n<p>Healthy self esteem originates in the environment found in the: family, school, peer group, work place, and community. There are certain characteristics of your environment that need to be present in order for self esteem to be fostered and grow.</p>\n<p>The main component of a healthy environment for self esteem is that it needs to be nurturing. It should provide unconditional warmth, love, and caring. It needs to provide the realization that other people are recognized as deserving to be nurtured, reinforced, rewarded, and bonded to.</p>\n"
+    },
+    {
+        "id": 287,
+        "title": "Stan-4, osnova-4",
+        "date": "December 21, 2018",
+        "gallery": [
+            "./assets/images/apartment/Stan-4-osnova-1.jpg"
+        ],
+        "description": "STAN 04 - dvosoban",
+        "rooms": [
+            {
+                "room": "dnevni boravak s trpezarijom",
+                "povrsina": 21.27,
+                "obim": 20.82,
+                "pod": "granitne pločice"
+            },
+            {
+                "room": "kuhinja",
+                "povrsina": 4.13,
+                "obim": 8.26,
+                "pod": "granitne pločice"
+            },
+            {
+                "room": "degažman",
+                "povrsina": 2.70,
+                "obim": 6.58,
+                "pod": "parket"
+            },
+            {
+                "room": "soba",
+                "povrsina": 11.45,
+                "obim": 14.06,
+                "pod": "parket"
+            },
+            {
+                "room": "kupatilo",
+                "povrsina": 3.87,
+                "obim": 8.02,
+                "pod": "granitne pločice"
+            },
+            {
+                "room": "terasa",
+                "povrsina": 2.64,
+                "obim": "/",
+                "pod": "granitne pločice"
+            }
+        ],
+        "netoPovrsina": {
+            "zatvorena": 43.42,
+            "umanjenjeZ": 3,
+            "otvorena": 2.64,
+            "umanjenjeO": 0,
+            "ukupna": 49.45
+        },
+        "images": {
+            "thumbnail": "./assets/images/apartment/thunmbnails/tip_4.jpg",
+            "full": "./assets/images/apartment/thunmbnails/tip_4.jpg"
+        },
+        "content": "<p><strong>Introducing single apartment, the stunning new addition to the downtown Manhattan skyline. A perfect blend of breathtaking architecture designed, with awe-inspiring interiors envisioned</strong></p>\n<p>Sleek and sophisticated, MaisonCo offers qualities always coveted, but rarely obtained in the finest New York rental residences \u2013 a unique blend of generously proportioned interiors and the enjoyment of Nassau Club over 10,000 square feet of indoor and outdoor amenities creatively conceived to enhance your exceptional FiDi lifestyle.</p>\n<h3>Delivering High Quality Projects</h3>\n<p>Staying calm, composed and maintaining strong self esteem in today\u2019s tough environment can be difficult but is not impossible if you follow a few simple guidelines. Here are 6 tips you can use as a starter guide to self improvement.</p>\n<p>Everything and everyone else around you can affect your self esteem. Other people can deliberately or inadvertently damage your self image. Unchecked people and circumstances can ultimately destroy your</p>\n<ul>\n<li><strong>Additional service including linen and room amenities as described above</strong></li>\n<li><strong>Same day laundry and valet service</strong></li>\n<li><strong>High-speed internet and WiFi access</strong></li>\n<li><strong>Private condominium reception desk</strong></li>\n<li><strong>Luxury furnishings</strong></li>\n<li><strong>Meeting rooms and catering facilities</strong></li>\n</ul>\n<p>Healthy self esteem originates in the environment found in the: family, school, peer group, work place, and community. There are certain characteristics of your environment that need to be present in order for self esteem to be fostered and grow.</p>\n<p>The main component of a healthy environment for self esteem is that it needs to be nurturing. It should provide unconditional warmth, love, and caring. It needs to provide the realization that other people are recognized as deserving to be nurtured, reinforced, rewarded, and bonded to.</p>\n",
+        "excerpt": "<p><strong>Introducing single apartment, the stunning new addition to the downtown Manhattan skyline. A perfect blend of breathtaking architecture designed, with awe-inspiring interiors envisioned</strong></p>\n<p>Sleek and sophisticated, MaisonCo offers qualities always coveted, but rarely obtained in the finest New York rental residences \u2013 a unique blend of generously proportioned interiors and the enjoyment of Nassau Club over 10,000 square feet of indoor and outdoor amenities creatively conceived to enhance your exceptional FiDi lifestyle.</p>\n<h3>Delivering High Quality Projects</h3>\n<p>Staying calm, composed and maintaining strong self esteem in today\u2019s tough environment can be difficult but is not impossible if you follow a few simple guidelines. Here are 6 tips you can use as a starter guide to self improvement.</p>\n<p>Everything and everyone else around you can affect your self esteem. Other people can deliberately or inadvertently damage your self image. Unchecked people and circumstances can ultimately destroy your</p>\n<ul>\n<li><strong>Additional service including linen and room amenities as described above</strong></li>\n<li><strong>Same day laundry and valet service</strong></li>\n<li><strong>High-speed internet and WiFi access</strong></li>\n<li><strong>Private condominium reception desk</strong></li>\n<li><strong>Luxury furnishings</strong></li>\n<li><strong>Meeting rooms and catering facilities</strong></li>\n</ul>\n<p>Healthy self esteem originates in the environment found in the: family, school, peer group, work place, and community. There are certain characteristics of your environment that need to be present in order for self esteem to be fostered and grow.</p>\n<p>The main component of a healthy environment for self esteem is that it needs to be nurturing. It should provide unconditional warmth, love, and caring. It needs to provide the realization that other people are recognized as deserving to be nurtured, reinforced, rewarded, and bonded to.</p>\n"
+    },
+    {
+        "id": 286,
+        "title": "Stan-5, osnova-5",
+        "date": "December 21, 2018",
+        "gallery": [
+            "./assets/images/apartment/Stan-5-osnova-1.jpg"
+        ],
+        "description": "STAN 05 - dvosoban",
+        "rooms": [
+            {
+                "room": "dnevni boravak",
+                "povrsina": 21.51,
+                "obim": 21.70,
+                "pod": "granitne pločice"
+            },
+            {
+                "room": "kuhinja",
+                "povrsina": 11.43,
+                "obim": 13.90,
+                "pod": "granitne pločice"
+            },
+            {
+                "room": "ostava",
+                "povrsina": 3.69,
+                "obim": 7.82,
+                "pod": "granitne pločice"
+            }
+        ],
+        "netoPovrsina": {
+            "zatvorena": 36.53,
+            "umanjenjeZ": 3,
+            "otvorena": 0,
+            "umanjenjeO": 0,
+            "ukupna": 49.45
+        },
+        "images": {
+            "thumbnail": "./assets/images/apartment/thunmbnails/tip_5.jpg",
+            "full": "./assets/images/apartment/thunmbnails/tip_5.jpg"
+        },
+        "content": "<p><strong>Introducing single apartment, the stunning new addition to the downtown Manhattan skyline. A perfect blend of breathtaking architecture designed, with awe-inspiring interiors envisioned</strong></p>\n<p>Sleek and sophisticated, MaisonCo offers qualities always coveted, but rarely obtained in the finest New York rental residences \u2013 a unique blend of generously proportioned interiors and the enjoyment of Nassau Club over 10,000 square feet of indoor and outdoor amenities creatively conceived to enhance your exceptional FiDi lifestyle.</p>\n<h3>Delivering High Quality Projects</h3>\n<p>Staying calm, composed and maintaining strong self esteem in today\u2019s tough environment can be difficult but is not impossible if you follow a few simple guidelines. Here are 6 tips you can use as a starter guide to self improvement.</p>\n<p>Everything and everyone else around you can affect your self esteem. Other people can deliberately or inadvertently damage your self image. Unchecked people and circumstances can ultimately destroy your</p>\n<ul>\n<li><strong>Additional service including linen and room amenities as described above</strong></li>\n<li><strong>Same day laundry and valet service</strong></li>\n<li><strong>High-speed internet and WiFi access</strong></li>\n<li><strong>Private condominium reception desk</strong></li>\n<li><strong>Luxury furnishings</strong></li>\n<li><strong>Meeting rooms and catering facilities</strong></li>\n</ul>\n<p>Healthy self esteem originates in the environment found in the: family, school, peer group, work place, and community. There are certain characteristics of your environment that need to be present in order for self esteem to be fostered and grow.</p>\n<p>The main component of a healthy environment for self esteem is that it needs to be nurturing. It should provide unconditional warmth, love, and caring. It needs to provide the realization that other people are recognized as deserving to be nurtured, reinforced, rewarded, and bonded to.</p>\n",
+        "excerpt": "<p><strong>Introducing single apartment, the stunning new addition to the downtown Manhattan skyline. A perfect blend of breathtaking architecture designed, with awe-inspiring interiors envisioned</strong></p>\n<p>Sleek and sophisticated, MaisonCo offers qualities always coveted, but rarely obtained in the finest New York rental residences \u2013 a unique blend of generously proportioned interiors and the enjoyment of Nassau Club over 10,000 square feet of indoor and outdoor amenities creatively conceived to enhance your exceptional FiDi lifestyle.</p>\n<h3>Delivering High Quality Projects</h3>\n<p>Staying calm, composed and maintaining strong self esteem in today\u2019s tough environment can be difficult but is not impossible if you follow a few simple guidelines. Here are 6 tips you can use as a starter guide to self improvement.</p>\n<p>Everything and everyone else around you can affect your self esteem. Other people can deliberately or inadvertently damage your self image. Unchecked people and circumstances can ultimately destroy your</p>\n<ul>\n<li><strong>Additional service including linen and room amenities as described above</strong></li>\n<li><strong>Same day laundry and valet service</strong></li>\n<li><strong>High-speed internet and WiFi access</strong></li>\n<li><strong>Private condominium reception desk</strong></li>\n<li><strong>Luxury furnishings</strong></li>\n<li><strong>Meeting rooms and catering facilities</strong></li>\n</ul>\n<p>Healthy self esteem originates in the environment found in the: family, school, peer group, work place, and community. There are certain characteristics of your environment that need to be present in order for self esteem to be fostered and grow.</p>\n<p>The main component of a healthy environment for self esteem is that it needs to be nurturing. It should provide unconditional warmth, love, and caring. It needs to provide the realization that other people are recognized as deserving to be nurtured, reinforced, rewarded, and bonded to.</p>\n"
+    }
+]
