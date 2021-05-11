@@ -1,0 +1,139 @@
+[
+    {
+        "title": "Jednosobni",
+        "description": "Kompleks čine stanovi različitih struktura, raspoređeni u nekoliko stambenih objekata. Zgrade u ponudi imaju konforne dvosobne, trosobne i četvorosobne stabmene jedinice smeštene u nekoliko lamela.",
+        "attributes": [
+            {
+                "name": "Sprat",
+                "option": "89"
+            },
+            {
+                "name": "Br. soba",
+                "option": "1"
+            },
+            {
+                "name": "Kvadartura",
+                "option": "345.50"
+            },
+            {
+                "name": "PARKING",
+                "option": "yes"
+            },
+            {
+                "name": "Cena",
+                "option": "$3200/m2"
+            }
+        ],
+        "image": "/assets/images/apartment/img-06.jpg"
+    },
+    {
+        "title": "Dvosobni",
+        "description": "Kompleks čine stanovi različitih struktura, raspoređeni u nekoliko stambenih objekata. Zgrade u ponudi imaju konforne dvosobne, trosobne i četvorosobne stabmene jedinice smeštene u nekoliko lamela.",
+        "attributes": [
+            {
+                "name": "Sprat",
+                "option": "89"
+            },
+            {
+                "name": "Br. soba",
+                "option": "2"
+            },
+            {
+                "name": "Kvadartura",
+                "option": "345.50"
+            },
+            {
+                "name": "PARKING",
+                "option": "yes"
+            },
+            {
+                "name": "Cena",
+                "option": "$3200/m2"
+            }
+        ],
+        "image": "/assets/images/apartment/img-07.jpg",
+        "position": "left"
+    },
+    {
+        "title": "Trosobni duplex",
+        "description": "Kompleks čine stanovi različitih struktura, raspoređeni u nekoliko stambenih objekata. Zgrade u ponudi imaju konforne dvosobne, trosobne i četvorosobne stabmene jedinice smeštene u nekoliko lamela.",
+        "attributes": [
+            {
+                "name": "Sprat",
+                "option": "89"
+            },
+            {
+                "name": "Br. soba",
+                "option": "3"
+            },
+            {
+                "name": "Kvadartura",
+                "option": "245.50"
+            },
+            {
+                "name": "PARKING",
+                "option": "yes"
+            },
+            {
+                "name": "Cena",
+                "option": "$3200/m2"
+            }
+        ],
+        "image": "/assets/images/apartment/img-08.jpg"
+    },
+    {
+        "title": "Četvorosobni",
+        "description": "Kompleks čine stanovi različitih struktura, raspoređeni u nekoliko stambenih objekata. Zgrade u ponudi imaju konforne dvosobne, trosobne i četvorosobne stabmene jedinice smeštene u nekoliko lamela.",
+        "attributes": [
+            {
+                "name": "Sprat",
+                "option": "89"
+            },
+            {
+                "name": "Br. soba",
+                "option": "4"
+            },
+            {
+                "name": "Kvadartura",
+                "option": "345.50"
+            },
+            {
+                "name": "PARKING",
+                "option": "yes"
+            },
+            {
+                "name": "Cena",
+                "option": "$3200/m2"
+            }
+        ],
+        "image": "/assets/images/apartment/img-09.jpg",
+        "position": "left"
+    },
+    {
+        "title": "Lux",
+        "description": "Kompleks čine stanovi različitih struktura, raspoređeni u nekoliko stambenih objekata. Zgrade u ponudi imaju konforne dvosobne, trosobne i četvorosobne stabmene jedinice smeštene u nekoliko lamela.",
+        "attributes": [
+            {
+                "name": "Sprat",
+                "option": "89"
+            },
+            {
+                "name": "Br. soba",
+                "option": "4"
+            },
+            {
+                "name": "Kvadartura",
+                "option": "345.50"
+            },
+            {
+                "name": "PARKING",
+                "option": "yes"
+            },
+            {
+                "name": "Cena",
+                "option": "$3200/m2"
+            }
+        ],
+        "image": "/assets/images/apartment/img-10.jpg"
+    }
+]
