@@ -60,13 +60,13 @@ class Root extends React.Component {
 
                   <Route path={`/stanovi`} component={ApartmentsPage} />
                   <Route
-                    path={`apartment/:title`}
+                    path={`/apartment/:title`}
                     component={ApartmentSinglePage}
                   />
 
-                  {/* <Route path={`garaze`} component={BlogPage}/> */}
-                  <Route path={`garaze`} component={Home2} />
-                  <Route path={`garaze/:id`} component={SingBlogPage} />
+                  {/* <Route path={`/garaze`} component={BlogPage}/> */}
+                  <Route path={`/garaze`} component={Home2} />
+                  <Route path={`/garaze/:id`} component={SingBlogPage} />
                 </Layout>
               </Switch>
             </ScrollContext>
