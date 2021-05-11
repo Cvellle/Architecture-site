@@ -58,7 +58,7 @@ class Root extends React.Component {
                   {/* <Route path={`/kuce`} component={TheBuildingPage}/> */}
                   <Route path={`/kuce`} component={Home2} />
 
-                  <Route path={`stanovi`} component={ApartmentsPage} />
+                  <Route path={`/stanovi`} component={ApartmentsPage} />
                   <Route
                     path={`apartment/:title`}
                     component={ApartmentSinglePage}
