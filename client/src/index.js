@@ -44,75 +44,29 @@ class Root extends React.Component {
             <ScrollContext>
               <Switch>
                 <Layout>
-                  <Route
-                    exact
-                    path={`${process.env.PUBLIC_URL}/`}
-                    component={Home2}
-                  />
-                  <Route
-                    exact
-                    path={`${process.env.PUBLIC_URL}/home-2`}
-                    component={Home2}
-                  />
-                  <Route
-                    exact
-                    path={`${process.env.PUBLIC_URL}/home-3`}
-                    component={Home3}
-                  />
-                  <Route
-                    exact
-                    path={`${process.env.PUBLIC_URL}/home-4`}
-                    component={Home4}
-                  />
+                  <Route exact path={`/`} component={Home2} />
+                  <Route exact path={`/home-2`} component={Home2} />
+                  <Route exact path={`/home-3`} component={Home3} />
+                  <Route exact path={`/home-4`} component={Home4} />
                   {/*Pages*/}
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/o-nama`}
-                    component={AboutPage}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/our-team`}
-                    component={OurTeamPage}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/our-services`}
-                    component={OurServicesPage}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/typography`}
-                    component={TypographyPage}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/faqs`}
-                    component={FAQPage}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/kontakt`}
-                    component={ContactPage}
-                  />
-                  {/* <Route path={`${process.env.PUBLIC_URL}/kuce`} component={TheBuildingPage}/> */}
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/kuce`}
-                    component={Home2}
-                  />
+                  <Route path={`/o-nama`} component={AboutPage} />
+                  <Route path={`/our-team`} component={OurTeamPage} />
+                  <Route path={`/our-services`} component={OurServicesPage} />
+                  <Route path={`/typography`} component={TypographyPage} />
+                  <Route path={`/faqs`} component={FAQPage} />
+                  <Route path={`/kontakt`} component={ContactPage} />
+                  {/* <Route path={`/kuce`} component={TheBuildingPage}/> */}
+                  <Route path={`/kuce`} component={Home2} />
 
+                  <Route path={`stanovi`} component={ApartmentsPage} />
                   <Route
-                    path={`${process.env.PUBLIC_URL}/stanovi`}
-                    component={ApartmentsPage}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/apartment/:title`}
+                    path={`apartment/:title`}
                     component={ApartmentSinglePage}
                   />
 
-                  {/* <Route path={`${process.env.PUBLIC_URL}/garaze`} component={BlogPage}/> */}
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/garaze`}
-                    component={Home2}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/garaze/:id`}
-                    component={SingBlogPage}
-                  />
+                  {/* <Route path={`garaze`} component={BlogPage}/> */}
+                  <Route path={`garaze`} component={Home2} />
+                  <Route path={`garaze/:id`} component={SingBlogPage} />
                 </Layout>
               </Switch>
             </ScrollContext>
@@ -124,3 +78,5 @@ class Root extends React.Component {
 }
 
 ReactDOM.render(<Root />, document.getElementById("root"));
+
+//${process.env.PUBLIC_URL}

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://good-choice.herokuapp.com/precache-manifest.db4f0ecb7190e7f6b0a481b0fcc81806.js"
+  "https://good-choice.herokuapp.com/precache-manifest.ccc4b5ea1ecc0dbe6abe33bbb084689f.js"
 );
 
 workbox.clientsClaim();
