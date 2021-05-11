@@ -7,7 +7,7 @@ const sendEmail = (reqArg) => {
     auth: {
       user: "n.cuekisa@gmail.com",
       // OVDE SIFRU OD MEJLA KOJI JE ZADUZEN ZA SLANJE - MORA DA MU BUDE ODOBRENO "ALLOW 3rd PARTY APPLICATIONS U SETTINGS"
-      pass: "",
+      pass: process.env.PASS_MAIL,
     },
     tls: {
       rejectUnauthorized: false,
@@ -17,7 +17,7 @@ const sendEmail = (reqArg) => {
   var mailOptions = {
     from: "cuekisa@yahoo.com",
     to: [
-      { address: reqArg.body.email },
+      { address: "cuekisa@yahoo.com" },
       { name: "Receiver", address: reqArg.body.email },
     ],
     subject: "Poruka od klijenta",

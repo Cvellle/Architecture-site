@@ -10,7 +10,11 @@
     "start": "node index.js",
     "backend": "nodemon index.js",
     "frontend": "npm run front --prefix client",
-    "dev": "concurrently \"npm run backend\"  \"npm run start --prefix client\""
+    "dev": "concurrently \"npm run backend\"  \"npm run start --prefix client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "John",
   "license": "ISC",
