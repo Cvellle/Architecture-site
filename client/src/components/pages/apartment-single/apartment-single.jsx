@@ -40,6 +40,17 @@ class ApartmentSinglePage extends Component {
                         </th>
                       </tr>
                     </thead>
+                    <tr>
+                      <td>br.</td>
+                      <td>PROSTORIJA</td>
+                      <td>
+                        P m<sup>2</sup>
+                      </td>
+                      <td>
+                        O m<sup>1</sup>
+                      </td>
+                      <td>VRSTA PODA</td>
+                    </tr>
                     {item.rooms.map((content, index) => (
                       <tr>
                         <td>0{index + 1}</td>
