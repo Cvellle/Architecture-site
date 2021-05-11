@@ -2,7 +2,7 @@
   "name": "react-striz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://good-choice.herokuapp.com/",
   "basename": "/",
   "proxy": "http://localhost:3000",
   "dependencies": {
