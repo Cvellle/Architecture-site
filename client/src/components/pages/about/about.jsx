@@ -48,7 +48,7 @@ class AboutPage extends Component {
         <div className="section-wrapper">
           <Parallax
             className={`section-parallax`}
-            bgImage={`${process.env.PUBLIC_URL}/assets/images/about/family_4.jpg`}
+            bgImage={`/assets/images/about/family_4.jpg`}
             bgImageAlt="the cat"
             strength={500}
           >

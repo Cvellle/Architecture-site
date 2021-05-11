@@ -20,7 +20,7 @@ class MainMenu extends Component {
     return (
       <li className={`menu-item`} key={key}>
         <Link
-          to={`${process.env.PUBLIC_URL}${menu.link}`}
+          to={`/${menu.link}`}
           className={this.state.active === menu.name ? "selected" : ""}
           onClick={this._handleClick.bind(this, menu.name)}
         >
