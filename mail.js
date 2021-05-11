@@ -7,7 +7,7 @@ const sendEmail = (reqArg) => {
     auth: {
       user: "n.cuekisa@gmail.com",
       // OVDE SIFRU OD MEJLA KOJI JE ZADUZEN ZA SLANJE - MORA DA MU BUDE ODOBRENO "ALLOW 3rd PARTY APPLICATIONS U SETTINGS"
-      pass: process.env.PASS_MAIL,
+      pass: process.env.EMAIL_SEND_PASSWORD,
     },
     tls: {
       rejectUnauthorized: false,

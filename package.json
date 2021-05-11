@@ -7,7 +7,10 @@
     "node": "12.16.0"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node index.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
     "backend": "nodemon index.js",
     "frontend": "npm run front --prefix client",
     "dev": "concurrently \"npm run backend\"  \"npm run start --prefix client\""
@@ -20,6 +23,7 @@
     "cors": "^2.8.5",
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
+    "if-env": "^1.0.4",
     "nodemailer": "^6.3.0"
   },
   "devDependencies": {
