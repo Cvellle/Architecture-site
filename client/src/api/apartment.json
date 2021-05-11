@@ -125,7 +125,7 @@
         "gallery": [
             "./assets/images/apartment/Stan-3-osnova-1.jpg"
         ],
-        "description": "STAN 02 - dvosoban",
+        "description": "STAN 02 - dvoiposoban",
         "rooms": [
             {
                 "room": "hodnik",
@@ -186,7 +186,7 @@
         "gallery": [
             "./assets/images/apartment/Stan-4-osnova-1.jpg"
         ],
-        "description": "STAN 04 - dvosoban",
+        "description": "STAN 04 - jednoiposoban",
         "rooms": [
             {
                 "room": "dnevni boravak s trpezarijom",
@@ -246,7 +246,7 @@
         "gallery": [
             "./assets/images/apartment/Stan-5-osnova-1.jpg"
         ],
-        "description": "STAN 05 - dvosoban",
+        "description": "STAN 05 - jednosoban",
         "rooms": [
             {
                 "room": "dnevni boravak",
