@@ -1,15 +1,15 @@
 {
-  "main.css": "./static/css/main.451c5b60.chunk.css",
-  "main.js": "./static/js/main.e560501c.chunk.js",
-  "main.js.map": "./static/js/main.e560501c.chunk.js.map",
-  "runtime~main.js": "./static/js/runtime~main.cb3136ea.js",
-  "runtime~main.js.map": "./static/js/runtime~main.cb3136ea.js.map",
-  "static/css/2.7bd3bcd5.chunk.css": "./static/css/2.7bd3bcd5.chunk.css",
-  "static/js/2.41ec6aeb.chunk.js": "./static/js/2.41ec6aeb.chunk.js",
-  "static/js/2.41ec6aeb.chunk.js.map": "./static/js/2.41ec6aeb.chunk.js.map",
-  "index.html": "./index.html",
-  "precache-manifest.c5740af5954364e3ba25a15bc27651c4.js": "./precache-manifest.c5740af5954364e3ba25a15bc27651c4.js",
-  "service-worker.js": "./service-worker.js",
-  "static/css/2.7bd3bcd5.chunk.css.map": "./static/css/2.7bd3bcd5.chunk.css.map",
-  "static/css/main.451c5b60.chunk.css.map": "./static/css/main.451c5b60.chunk.css.map"
+  "main.css": "https://good-choice.herokuapp.com/static/css/main.451c5b60.chunk.css",
+  "main.js": "https://good-choice.herokuapp.com/static/js/main.cc146829.chunk.js",
+  "main.js.map": "https://good-choice.herokuapp.com/static/js/main.cc146829.chunk.js.map",
+  "runtime~main.js": "https://good-choice.herokuapp.com/static/js/runtime~main.232122e6.js",
+  "runtime~main.js.map": "https://good-choice.herokuapp.com/static/js/runtime~main.232122e6.js.map",
+  "static/css/2.7bd3bcd5.chunk.css": "https://good-choice.herokuapp.com/static/css/2.7bd3bcd5.chunk.css",
+  "static/js/2.41ec6aeb.chunk.js": "https://good-choice.herokuapp.com/static/js/2.41ec6aeb.chunk.js",
+  "static/js/2.41ec6aeb.chunk.js.map": "https://good-choice.herokuapp.com/static/js/2.41ec6aeb.chunk.js.map",
+  "index.html": "https://good-choice.herokuapp.com/index.html",
+  "precache-manifest.db4f0ecb7190e7f6b0a481b0fcc81806.js": "https://good-choice.herokuapp.com/precache-manifest.db4f0ecb7190e7f6b0a481b0fcc81806.js",
+  "service-worker.js": "https://good-choice.herokuapp.com/service-worker.js",
+  "static/css/2.7bd3bcd5.chunk.css.map": "https://good-choice.herokuapp.com/static/css/2.7bd3bcd5.chunk.css.map",
+  "static/css/main.451c5b60.chunk.css.map": "https://good-choice.herokuapp.com/static/css/main.451c5b60.chunk.css.map"
 }
