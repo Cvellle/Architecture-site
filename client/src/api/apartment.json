@@ -2,6 +2,7 @@
     {
         "id": 290,
         "title": "Stan-1, osnova-1",
+        "level": "1",
         "date": "December 21, 2018",
         "images": {
             "thumbnail": "./assets/images/apartment/thunmbnails/tip_1.jpg",
@@ -62,6 +63,7 @@
     {
         "id": 289,
         "title": "Stan-2, osnova-2",
+        "level": "1",
         "date": "December 21, 2018",
         "images": {
             "thumbnail": "./assets/images/apartment/thunmbnails/tip_2.jpg",
@@ -171,6 +173,7 @@
             "umanjenjeO": 0,
             "ukupna": 49.45
         },
+        "level": "2",
         "date": "December 21, 2018",
         "images": {
             "thumbnail": "./assets/images/apartment/thunmbnails/tip_3.jpg",
@@ -182,6 +185,7 @@
     {
         "id": 287,
         "title": "Stan-4, osnova-4",
+        "level": "1",
         "date": "December 21, 2018",
         "gallery": [
             "./assets/images/apartment/Stan-4-osnova-1.jpg"
@@ -242,6 +246,7 @@
     {
         "id": 286,
         "title": "Stan-5, osnova-5",
+        "level": "1",
         "date": "December 21, 2018",
         "gallery": [
             "./assets/images/apartment/Stan-5-osnova-1.jpg"

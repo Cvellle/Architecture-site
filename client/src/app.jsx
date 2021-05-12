@@ -41,9 +41,9 @@ class App extends Component {
                     linkComponent={LinkComponent}
                     propMap={{url: 'link'}}>
                     <div id="page" className="site">
-                        <HeaderOne logoName={'logo.svg'} menu={this.menu}/>
+                        <HeaderOne logoName={'logo.png'} menu={this.menu}/>
                         {this.props.children}
-                        <FooterOne logoName={'logo.svg'}/>
+                        <FooterOne logoName={'logo.png'}/>
                     </div>
 
                 </PushMenu>

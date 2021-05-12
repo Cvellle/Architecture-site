@@ -32,6 +32,7 @@ import { getAllData } from "./actions";
 import OurServicesPage from "./components/pages/our-services/our-services";
 import TheBuildingPage from "./components/pages/the-building/the-building";
 import ApartmentsPage from "./components/pages/apartments/apartments";
+import Levels from "./components/pages/apartments/levels";
 import ApartmentSinglePage from "./components/pages/apartment-single/apartment-single";
 
 class Root extends React.Component {
@@ -58,12 +59,15 @@ class Root extends React.Component {
                   {/* <Route path={`/kuce`} component={TheBuildingPage}/> */}
                   <Route path={`/kuce`} component={Home2} />
 
-                  <Route path={`/stanovi`} component={ApartmentsPage} />
+                  <Route path={`/stanovi`} component={Levels} />
                   <Route
                     path={`/apartment/:title`}
                     component={ApartmentSinglePage}
                   />
-
+                   <Route
+                    path={`/spratovi/:sprat`}
+                    component={ApartmentsPage}
+                  />
                   {/* <Route path={`/garaze`} component={BlogPage}/> */}
                   <Route path={`/garaze`} component={Home2} />
                   <Route path={`/garaze/:id`} component={SingBlogPage} />

@@ -18,7 +18,7 @@ class Home2 extends Component {
         return (
             <div className={`home-page-wrap`}>
                 <Helmet>
-                    <title>MaisonCo | Single Property</title>
+                    <title>Gening | Početna</title>
                     <meta name="description" content="MaisonCo – Single property React Template is a multi-use React template. It is designed to go well with multi-purpose websites. Striz Bootstrap 4 Template will help you run multiple businesses."/>
                 </Helmet>
                 <div className="section-wrapper pt-0">
