@@ -16,7 +16,7 @@ import ApartmentsPlansSection from "./sections/ourvalues/ourvalues";
 class Home2 extends Component {
   render() {
     return (
-      <div className={`home-page-wrap`}>
+      <div className={`home-page-wrap`} className="m-0 p-0">
         <Helmet>
           <title>Gening</title>
           <meta

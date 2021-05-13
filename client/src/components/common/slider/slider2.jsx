@@ -11,40 +11,40 @@ class CarouselPage2 extends Component {
         title: `Razne vrste pogodnosti, \n Mnoge zanimljive aktivnosti `,
         description:
           "Naša definicija dizajna teži tome da konstantno napreduje daljem razvijanju iskustva i ugođaja naših klijenata na našem prostoru.",
-        link: "#"
+        link: "#",
       },
       {
         image: `/assets/imagewebp/slider/sliderhome3_2.webp`,
         title: `Razne vrste pogodnosti, \n Mnoge zanimljive aktivnosti `,
         description:
           "Naša definicija dizajna teži tome da konstantno napreduje daljem razvijanju iskustva i ugođaja naših klijenata na našem prostoru.",
-        link: "#"
+        link: "#",
       },
       {
         image: `/assets/imagewebp/slider/sliderhome3_3.webp`,
         title: `Razne vrste pogodnosti, \n Mnoge zanimljive aktivnosti `,
         description:
           "Naša definicija dizajna teži tome da konstantno napreduje daljem razvijanju iskustva i ugođaja naših klijenata na našem prostoru.",
-        link: "#"
+        link: "#",
       },
       {
         image: `/assets/imagewebp/slider/sliderhome3_4.webp`,
         title: `Razne vrste pogodnosti, \n Mnoge zanimljive aktivnosti `,
         description:
           "Naša definicija dizajna teži tome da konstantno napreduje daljem razvijanju iskustva i ugođaja naših klijenata na našem prostoru.",
-        link: "#"
-      }
+        link: "#",
+      },
     ];
     this.state = {
       active: this.data[0],
-      slideIndex: 0
+      slideIndex: 0,
     };
   }
 
   slideChange = (old, index) => {
     this.setState({
       active: this.data[index],
-      slideIndex: index
+      slideIndex: index,
     });
   };
 
@@ -56,7 +56,7 @@ class CarouselPage2 extends Component {
     return className;
   }
 
-  clickDot = index => {
+  clickDot = (index) => {
     this.slider.slickGoTo(index);
   };
 
@@ -67,23 +67,23 @@ class CarouselPage2 extends Component {
       infinite: true,
       speed: 1000,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
     };
 
     return (
       <div className={"carousel2-wrap position-relative"}>
-        <div className="row flex-md-row-reverse">
-          <div className="col-lg-6 col-md-12">
+        <div className="row flex-md-row-reverse m-0 p-0">
+          <div className="col-lg-6 col-md-12 m-0 p-0">
             <Slider
               {...settings}
-              ref={slider => (this.slider = slider)}
+              ref={(slider) => (this.slider = slider)}
               beforeChange={this.slideChange}
             >
-              {this.data.map((data, index) =>
+              {this.data.map((data, index) => (
                 <div className="slider-item" key={index}>
                   <img src={data.image} alt="" className="img-fluid" />
                 </div>
-              )}
+              ))}
             </Slider>
           </div>
           <div className="col-lg-4 col-md-10  d-flex align-items-center">
@@ -92,9 +92,7 @@ class CarouselPage2 extends Component {
                 <h3 className="text-white text-uppercase mb-4">
                   {this.state.active.title}
                 </h3>
-                <p className="slider-desc">
-                  {this.state.active.description}
-                </p>
+                <p className="slider-desc">{this.state.active.description}</p>
                 <a className="btn btn-link p-0">Saznaj više</a>
               </div>
             </div>
@@ -103,7 +101,7 @@ class CarouselPage2 extends Component {
           <div className="col-lg-2 col-md-2 d-flex align-items-center ">
             <div className="navigation">
               <ul className="bullets-vertical">
-                {this.data.map((item, index) =>
+                {this.data.map((item, index) => (
                   <li
                     className={this.checkActive(index)}
                     key={index}
@@ -111,7 +109,7 @@ class CarouselPage2 extends Component {
                   >
                     <span className="bullet-inner" />
                   </li>
-                )}
+                ))}
               </ul>
             </div>
           </div>
