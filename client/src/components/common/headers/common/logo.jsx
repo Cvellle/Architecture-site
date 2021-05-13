@@ -8,7 +8,7 @@ function LogoImage(props) {
       <img
         src={`/assets/images/${props.logo}`}
         alt=""
-        className="img-fluid  col-md-10"
+        className="img-fluid col-md-4 col-lg-8"
       />
     </Link>
   );
