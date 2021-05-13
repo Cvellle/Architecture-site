@@ -39,7 +39,8 @@ class FooterOne extends Component {
                     <li>
                       <span className="icon-list-icon">ADRESA:</span>
                       <span className="icon-list-text">
-                        Industriska zona, Zmič bb, 35250, Paraćin
+                        Industriska zona, Zmič bb,
+                        <br /> 35250, Paraćin
                       </span>
                     </li>
                     <li>
