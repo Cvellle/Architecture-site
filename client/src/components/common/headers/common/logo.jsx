@@ -4,8 +4,12 @@ import { Link } from "react-router-dom";
 function LogoImage(props) {
   return (
     <Link to={`/`} className="custom-logo-link">
-      <span className="screen-reader-text">MaisonCo Single Property</span>
-      <img src={`/assets/images/${props.logo}`} alt="" className="img-fluid" />
+      <span className="screen-reader-text">Gening</span>
+      <img
+        src={`/assets/images/${props.logo}`}
+        alt=""
+        className="img-fluid  col-md-10"
+      />
     </Link>
   );
 }

@@ -39,7 +39,7 @@ class FooterOne extends Component {
                     <li>
                       <span className="icon-list-icon">ADRESA:</span>
                       <span className="icon-list-text">
-                        Timočka 22, 11000 Beograd
+                        Industriska zona, Zmič bb, 35250, Paraćin
                       </span>
                     </li>
                     <li>
@@ -48,7 +48,9 @@ class FooterOne extends Component {
                     </li>
                     <li>
                       <span className="icon-list-icon">E-MAIL:</span>
-                      <span className="icon-list-text">gening@gmail.com</span>
+                      <span className="icon-list-text">
+                        gening.pn@gmail.com
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -105,9 +107,9 @@ class FooterOne extends Component {
               <div className="col-sm-12">
                 <Copyright title="Cvele" />
               </div>
-              <div className="col-sm-12">
+              {/* <div className="col-sm-12">
                 <div className="social">
-                  {/* <a href="#">
+                  <a href="#">
                     <span className="screen-reader-text">Facebook</span>
                     <i className="fa fa-facebook" />
                   </a>
@@ -118,17 +120,17 @@ class FooterOne extends Component {
                   <a href="#">
                     <span className="screen-reader-text">Instagram</span>
                     <i className="fa fa-instagram" />
-                  </a> */}
-                  {/*<a href="#">
+                  </a>
+                  <a href="#">
                     <span className="screen-reader-text">Google +</span>
                     <i className="fa fa-google-plus" />
-                  </a>*/}
-                  {/* <a href="#">
+                  </a>
+                  <a href="#">
                     <span className="screen-reader-text">Pinterest</span>
                     <i className="fa fa-pinterest" />
-                  </a> */}
+                  </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

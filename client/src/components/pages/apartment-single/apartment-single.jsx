@@ -25,14 +25,14 @@ class ApartmentSinglePage extends Component {
           parent={[{ path: "apartments", title: "Stanovi" }]}
         />
         <Helmet>
-          <title>MaisonCo | {item.title}</title>
+          <title>Gening | {item.title}</title>
         </Helmet>
         <ContentWrap isBoxed={true}>
           <div className="entry-image text-center">
             <div className="apartment__content">
               <div className="apartment__tableDiv col-12 col-md-6">
                 <div className="apartment__tableBlock m-auto">
-                  <table className="table-bordered col-12 col-md-10 m-auto">
+                  <table className="table-bordered col-12 col-md-11 col-lg-10 m-auto">
                     <thead>
                       <tr>
                         <th colspan="12" className="text-center p-3">
@@ -121,8 +121,8 @@ class ApartmentSinglePage extends Component {
                   </table>
                 </div>
               </div>
-              <div className=" col-12 col-md-6">
-                <figure className="apartment__imageWrapper col-12 col-md-8 m-auto">
+              <div className=" col-12 col-md-6 m-5 m-md-0">
+                <figure className="apartment__imageWrapper col-12 col-md-9 m-auto">
                   <img src={item.gallery[0]} alt="" />
                 </figure>
               </div>

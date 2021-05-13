@@ -10,7 +10,7 @@ class OurTeamPage extends Component {
     return (
       <div className={`our-team-wrap`}>
         <Helmet>
-          <title>MaisonCo | Our Team Page</title>
+          <title>Gening | Our Team Page</title>
         </Helmet>
         <Breadcrumb title={"Our Team"} />
         <div className="section-wrapper">

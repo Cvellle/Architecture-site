@@ -67,8 +67,8 @@ class ContactPage extends Component {
                   </div>
                   <div className="content">
                     <span className="title text-uppercase">ADRESA :</span>
-                    <p className="description">Timočka 22</p>
-                    <p className="description">11000, Beograd</p>
+                    <p className="description">Industriska zona, Zmič bb</p>
+                    <p className="description">35250, Paraćin</p>
                   </div>
                 </div>
               </div>
@@ -79,7 +79,7 @@ class ContactPage extends Component {
                   </div>
                   <div className="content">
                     <span className="title text-uppercase">E-MAIL :</span>
-                    <p className="description">gening@gmail.com</p>
+                    <p className="description">gening.pn@gmail.com</p>
                   </div>
                 </div>
               </div>

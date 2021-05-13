@@ -17,11 +17,11 @@
             },
             {
                 "name": "PARKING",
-                "option": "yes"
+                "option": "da"
             },
             {
                 "name": "Cena",
-                "option": "$3200/m2"
+                "option": "3200eur/m2"
             }
         ],
         "image": "/assets/images/apartment/img-06.jpg"
@@ -44,11 +44,11 @@
             },
             {
                 "name": "PARKING",
-                "option": "yes"
+                "option": "da"
             },
             {
                 "name": "Cena",
-                "option": "$3200/m2"
+                "option": "3200eur/m2"
             }
         ],
         "image": "/assets/images/apartment/img-07.jpg",
@@ -72,11 +72,11 @@
             },
             {
                 "name": "PARKING",
-                "option": "yes"
+                "option": "da"
             },
             {
                 "name": "Cena",
-                "option": "$3200/m2"
+                "option": "3200eur/m2"
             }
         ],
         "image": "/assets/images/apartment/img-08.jpg"
@@ -99,11 +99,11 @@
             },
             {
                 "name": "PARKING",
-                "option": "yes"
+                "option": "da"
             },
             {
                 "name": "Cena",
-                "option": "$3200/m2"
+                "option": "3200eur/m2"
             }
         ],
         "image": "/assets/images/apartment/img-09.jpg",
@@ -127,11 +127,11 @@
             },
             {
                 "name": "PARKING",
-                "option": "yes"
+                "option": "da"
             },
             {
                 "name": "Cena",
-                "option": "$3200/m2"
+                "option": "3200eur/m2"
             }
         ],
         "image": "/assets/images/apartment/img-10.jpg"

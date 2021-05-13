@@ -105,7 +105,7 @@ class FooterOne extends Component {
               <div className="col-sm-12">
                 <Copyright title="Cvele" />
               </div>
-              <div className="col-sm-12">
+              {/* <div className="col-sm-12">
                 <div className="social">
                   <a href="#">
                     <span className="screen-reader-text">Facebook</span>
@@ -119,16 +119,16 @@ class FooterOne extends Component {
                     <span className="screen-reader-text">Instagram</span>
                     <i className="fa fa-instagram" />
                   </a>
-                  {/*<a href="#">
+                  <a href="#">
                     <span className="screen-reader-text">Google +</span>
                     <i className="fa fa-google-plus" />
-                  </a>*/}
+                  </a>
                   <a href="#">
                     <span className="screen-reader-text">Pinterest</span>
                     <i className="fa fa-pinterest" />
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
