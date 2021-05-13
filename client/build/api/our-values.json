@@ -5,7 +5,7 @@
         "attributes": [
             {
                 "name": "Sprat",
-                "option": "89"
+                "option": "2"
             },
             {
                 "name": "Br. soba",
@@ -13,7 +13,7 @@
             },
             {
                 "name": "Kvadartura",
-                "option": "345.50"
+                "option": "80.20"
             },
             {
                 "name": "PARKING",
@@ -21,7 +21,7 @@
             },
             {
                 "name": "Cena",
-                "option": "3200eur/m2"
+                "option": "1000eur/m2"
             }
         ],
         "image": "/assets/images/apartment/img-06.jpg"
@@ -32,7 +32,7 @@
         "attributes": [
             {
                 "name": "Sprat",
-                "option": "89"
+                "option": "2"
             },
             {
                 "name": "Br. soba",
@@ -40,7 +40,7 @@
             },
             {
                 "name": "Kvadartura",
-                "option": "345.50"
+                "option": "80.20"
             },
             {
                 "name": "PARKING",
@@ -48,7 +48,7 @@
             },
             {
                 "name": "Cena",
-                "option": "3200eur/m2"
+                "option": "1000eur/m2"
             }
         ],
         "image": "/assets/images/apartment/img-07.jpg",
@@ -60,7 +60,7 @@
         "attributes": [
             {
                 "name": "Sprat",
-                "option": "89"
+                "option": "2"
             },
             {
                 "name": "Br. soba",
@@ -76,7 +76,7 @@
             },
             {
                 "name": "Cena",
-                "option": "3200eur/m2"
+                "option": "1000eur/m2"
             }
         ],
         "image": "/assets/images/apartment/img-08.jpg"
@@ -87,7 +87,7 @@
         "attributes": [
             {
                 "name": "Sprat",
-                "option": "89"
+                "option": "2"
             },
             {
                 "name": "Br. soba",
@@ -95,7 +95,7 @@
             },
             {
                 "name": "Kvadartura",
-                "option": "345.50"
+                "option": "80.20"
             },
             {
                 "name": "PARKING",
@@ -103,7 +103,7 @@
             },
             {
                 "name": "Cena",
-                "option": "3200eur/m2"
+                "option": "1000eur/m2"
             }
         ],
         "image": "/assets/images/apartment/img-09.jpg",
@@ -115,7 +115,7 @@
         "attributes": [
             {
                 "name": "Sprat",
-                "option": "89"
+                "option": "2"
             },
             {
                 "name": "Br. soba",
@@ -123,7 +123,7 @@
             },
             {
                 "name": "Kvadartura",
-                "option": "345.50"
+                "option": "80.20"
             },
             {
                 "name": "PARKING",
@@ -131,7 +131,7 @@
             },
             {
                 "name": "Cena",
-                "option": "3200eur/m2"
+                "option": "1000eur/m2"
             }
         ],
         "image": "/assets/images/apartment/img-10.jpg"
