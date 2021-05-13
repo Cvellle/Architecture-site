@@ -39,19 +39,16 @@ class FooterOne extends Component {
                     <li>
                       <span className="icon-list-icon">ADRESA:</span>
                       <span className="icon-list-text">
-                        Logan Barker, 865 Oak Boulevard, Elk Grove, Vermont
-                        95184
+                        Timočka 22, 11000 Beograd
                       </span>
                     </li>
                     <li>
                       <span className="icon-list-icon">TELEFON:</span>
-                      <span className="icon-list-text">063/</span>
+                      <span className="icon-list-text">063/123123</span>
                     </li>
                     <li>
                       <span className="icon-list-icon">E-MAIL:</span>
-                      <span className="icon-list-text">
-                        email.support@gmail.com
-                      </span>
+                      <span className="icon-list-text">gening@gmail.com</span>
                     </li>
                   </ul>
                 </div>
@@ -110,7 +107,7 @@ class FooterOne extends Component {
               </div>
               <div className="col-sm-12">
                 <div className="social">
-                  <a href="#">
+                  {/* <a href="#">
                     <span className="screen-reader-text">Facebook</span>
                     <i className="fa fa-facebook" />
                   </a>
@@ -121,15 +118,15 @@ class FooterOne extends Component {
                   <a href="#">
                     <span className="screen-reader-text">Instagram</span>
                     <i className="fa fa-instagram" />
-                  </a>
+                  </a> */}
                   {/*<a href="#">
                     <span className="screen-reader-text">Google +</span>
                     <i className="fa fa-google-plus" />
                   </a>*/}
-                  <a href="#">
+                  {/* <a href="#">
                     <span className="screen-reader-text">Pinterest</span>
                     <i className="fa fa-pinterest" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

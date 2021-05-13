@@ -55,8 +55,8 @@ class ContactPage extends Component {
                   </div>
                   <div className="content">
                     <span className="title text-uppercase">TELEFON :</span>
-                    <p className="description">012-345-6789</p>
-                    <p className="description">539-737-1380</p>
+                    <p className="description">011/123123</p>
+                    <p className="description">063/123123</p>
                   </div>
                 </div>
               </div>
@@ -67,10 +67,8 @@ class ContactPage extends Component {
                   </div>
                   <div className="content">
                     <span className="title text-uppercase">ADRESA :</span>
-                    <p className="description">
-                      Logan Barker, 865 Oak Boulevard
-                    </p>
-                    <p className="description">Elk Grove, Vermont 95184</p>
+                    <p className="description">Timočka 22</p>
+                    <p className="description"> 11000 Beograd</p>
                   </div>
                 </div>
               </div>
@@ -81,8 +79,8 @@ class ContactPage extends Component {
                   </div>
                   <div className="content">
                     <span className="title text-uppercase">E-MAIL :</span>
-                    <p className="description">support@maisonco.com</p>
-                    <p className="description">info@maisonco.com</p>
+                    <p className="description">gening@gmail.com</p>
+                    {/* <p className="description">info@gening.com</p> */}
                   </div>
                 </div>
               </div>
