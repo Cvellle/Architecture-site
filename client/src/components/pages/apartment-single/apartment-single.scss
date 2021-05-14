@@ -2,7 +2,12 @@
 
 .apartment {
   $this: &;
-
+  $mainBg: #242322;
+  $mainBg: rgb(75, 67, 67);
+  // $mainBg: #d8c8a0;
+  $secBg: rgb(75, 67, 67);
+  // $secBg: #d8c8a0;
+  // navBtn #cabe9f
   #{$this}__content {
     display: flex;
     justify-content: center;
@@ -18,7 +23,7 @@
     }
 
     & table {
-      outline: 5px solid rgba(37, 34, 34, 0.788);
+      outline: 5px solid $mainBg;
       border: none;
       color: rgba(0, 0, 0, 0.788);
       font-size: 2.5vw;
@@ -46,7 +51,7 @@
       & th {
         border: none;
         font-weight: 900;
-        background-color: rgba(37, 34, 34, 0.788);
+        background-color: $mainBg;
         color: white;
 
         @media (min-width: 768px) {
@@ -60,9 +65,15 @@
 
       & td {
         font-weight: 500;
-        border: 1.5px solid rgba(37, 34, 34, 0.788);
-        border: 1px solid rgba(37, 34, 34, 0.788);
+        border: 1.5px solid $mainBg;
+        border: 1px solid $mainBg;
         background-color: #fff;
+
+        &.different {
+          background-color: #ead79c;
+          background-color: $secBg;
+          color: white;
+        }
       }
     }
   }

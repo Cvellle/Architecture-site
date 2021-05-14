@@ -41,15 +41,15 @@ class ApartmentSinglePage extends Component {
                       </tr>
                     </thead>
                     <tr>
-                      <td>br.</td>
-                      <td>PROSTORIJA</td>
-                      <td>
+                      <td className="different">br.</td>
+                      <td className="different">PROSTORIJA</td>
+                      <td className="different">
                         P m<sup>2</sup>
                       </td>
-                      <td>
+                      <td className="different">
                         O m<sup>1</sup>
                       </td>
-                      <td>VRSTA PODA</td>
+                      <td className="different">VRSTA PODA</td>
                     </tr>
                     {item.rooms.map((content, index) => (
                       <tr>
@@ -61,7 +61,9 @@ class ApartmentSinglePage extends Component {
                       </tr>
                     ))}
                     <tr>
-                      <td colspan="6">&nbsp;</td>
+                      <td colspan="6" className="different">
+                        &nbsp;
+                      </td>
                     </tr>
                     <tr>
                       <td colspan="2" className="text-left pl-2">
