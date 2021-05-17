@@ -1,15 +1,15 @@
 [
     {
-        "id": 1,
-        "title": "Stan-1",
-        "level": "0",
+        "id": 290,
+        "title": "Stan-1, osnova-1",
+        "level": "1",
         "date": "December 21, 2018",
         "images": {
             "thumbnail": "./assets/images/apartment/thunmbnails/tip_1.jpg",
             "full": "./assets/images/apartment/thunmbnails/tip_1.jpg"
         },
         "gallery": [
-            "./assets/images/apartment/0.prizemlje/stan-1.jpg"
+            "./assets/images/apartment/Stan-1-osnova-1.jpg"
         ],
         "description": "STAN 01 - dvosoban",
         "rooms": [

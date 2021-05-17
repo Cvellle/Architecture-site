@@ -34,10 +34,11 @@ class ApartmentArchiveBlock extends Component {
   }
 
   render() {
+    const filtered = this.state.items.filter((el) => el.level == window.location.href.slice(-1));
     return (
-      <div className={`apartment-block-wrap`}>
+      <div className={`apartment-block-wrap`}>      
         <div className={`row${this.props.noGutters ? " no-gutters" : ""}`}>
-          {this.state.items.map((apartment, index) => (
+          {filtered.map((apartment, index) => (
             <div className="col-lg-4 col-sm-6" key={index}>
               <div className="property">
                 <div className="property-wrap">

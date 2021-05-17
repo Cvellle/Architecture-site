@@ -13,7 +13,7 @@ class ApartmentSinglePage extends Component {
     infinite: true,
     speed: 1000,
     slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToScroll: 1
   };
 
   render() {
@@ -25,7 +25,9 @@ class ApartmentSinglePage extends Component {
           parent={[{ path: "apartments", title: "Stanovi" }]}
         />
         <Helmet>
-          <title>MaisonCo | {item.title}</title>
+          <title>
+            MaisonCo | {item.title}
+          </title>
         </Helmet>
         <ContentWrap isBoxed={true}>
           <div className="entry-image text-center">
@@ -40,15 +42,25 @@ class ApartmentSinglePage extends Component {
                         </th>
                       </tr>
                     </thead>
-                    {item.rooms.map((content, index) => (
+                    {item.rooms.map((content, index) =>
                       <tr>
-                        <td>0{index + 1}</td>
-                        <td>{content.room}</td>
-                        <td>{content.povrsina}</td>
-                        <td>{content.obim}</td>
-                        <td>{content.pod}</td>
+                        <td>
+                          0{index + 1}
+                        </td>
+                        <td>
+                          {content.room}
+                        </td>
+                        <td>
+                          {content.povrsina}
+                        </td>
+                        <td>
+                          {content.obim}
+                        </td>
+                        <td>
+                          {content.pod}
+                        </td>
                       </tr>
-                    ))}
+                    )}
                     <tr>
                       <td colspan="6">&nbsp;</td>
                     </tr>
@@ -56,7 +68,9 @@ class ApartmentSinglePage extends Component {
                       <td colspan="2" className="text-left pl-2">
                         Neto zatvorena površina
                       </td>
-                      <td>{item.netoPovrsina.zatvorena}</td>
+                      <td>
+                        {item.netoPovrsina.zatvorena}
+                      </td>
                       <td>
                         {item.netoPovrsina.umanjenjeZ < 100
                           ? `-${item.netoPovrsina.umanjenjeZ}%`
@@ -64,10 +78,9 @@ class ApartmentSinglePage extends Component {
                       </td>
                       <td>
                         {item.netoPovrsina.umanjenjeZ > 0
-                          ? (
-                              item.netoPovrsina.zatvorena *
-                              ((100 - item.netoPovrsina.umanjenjeZ) / 100)
-                            ).toFixed(2)
+                          ? (item.netoPovrsina.zatvorena *
+                              ((100 - item.netoPovrsina.umanjenjeZ) /
+                                100)).toFixed(2)
                           : item.netoPovrsina.zatvorena}
                       </td>
                     </tr>
@@ -75,7 +88,9 @@ class ApartmentSinglePage extends Component {
                       <td colspan="2" className="text-left pl-2">
                         Neto otvorena površina
                       </td>
-                      <td>{item.netoPovrsina.otvorena}</td>
+                      <td>
+                        {item.netoPovrsina.otvorena}
+                      </td>
                       <td>
                         {item.netoPovrsina.umanjenjeO > 0
                           ? `${item.netoPovrsina.umanjenjeO}`
@@ -83,10 +98,9 @@ class ApartmentSinglePage extends Component {
                       </td>
                       <td>
                         {item.netoPovrsina.umanjenjeO > 0
-                          ? (
-                              item.netoPovrsina.otvorena *
-                              ((100 - item.netoPovrsina.umanjenjeO) / 100)
-                            ).toFixed(2)
+                          ? (item.netoPovrsina.otvorena *
+                              ((100 - item.netoPovrsina.umanjenjeO) /
+                                100)).toFixed(2)
                           : item.netoPovrsina.otvorena}
                       </td>
                     </tr>
@@ -97,17 +111,18 @@ class ApartmentSinglePage extends Component {
                       <td />
                       <td />
                       <td>
-                        {(
-                          (item.netoPovrsina.umanjenjeZ < 100
-                            ? item.netoPovrsina.zatvorena -
-                              item.netoPovrsina.zatvorena *
-                                (item.netoPovrsina.umanjenjeZ / 100)
-                            : item.netoPovrsina.zatvorena) +
-                          item.netoPovrsina.otvorena
-                        ).toFixed(2)}
+                        {((item.netoPovrsina.umanjenjeZ < 100
+                          ? item.netoPovrsina.zatvorena -
+                            item.netoPovrsina.zatvorena *
+                              (item.netoPovrsina.umanjenjeZ / 100)
+                          : item.netoPovrsina.zatvorena) +
+                          item.netoPovrsina.otvorena).toFixed(2)}
                       </td>
                     </tr>
                   </table>
+                  <figure className="apartment__imageWrapper col-12 col-md-10 m-auto">
+                    <img src={item.gallery[0]} alt="" />
+                  </figure>
                 </div>
               </div>
               <div className=" col-12 col-md-6">
@@ -126,7 +141,7 @@ class ApartmentSinglePage extends Component {
 const mapStateToProps = (state, ownProps) => {
   let apartmentID = ownProps.match.params.title;
   return {
-    item: state.apartments.apartments.find((el) => el.title == apartmentID),
+    item: state.apartments.apartments.find(el => el.title == apartmentID)
   };
 };
 

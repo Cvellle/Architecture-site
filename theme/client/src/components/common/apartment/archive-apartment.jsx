@@ -34,6 +34,7 @@ class ApartmentArchiveBlock extends Component {
     render() {
         return (
             <div className={`apartment-block-wrap`}>
+                {window.location.href}
                 <div className={`row${this.props.noGutters ? ' no-gutters' : ''}`}>
                     {this.state.items.map((apartment, index) =>
                         <div className="col-lg-4 col-sm-6" key={index}>
