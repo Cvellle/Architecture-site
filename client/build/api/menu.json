@@ -10,6 +10,11 @@
         "children": []
     },
     {
+        "name": "Lokacije",
+        "link": "/lokacije",
+        "children": []
+    },
+    {
         "name": "O nama",
         "link": "/o-nama",
         "children": []
