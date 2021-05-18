@@ -86,13 +86,13 @@ class ApartmentSinglePage extends Component {
                       <td />
                     </tr>
                   </table>
-                  <figure className="apartment__imageWrapper col-12 col-md-12 mt-5 mx-auto">
+                  <figure className="apartment__imageWrapper col-12 col-md-10 mt-5 mx-auto p-3 shadow">
                     <img src={item.gallery[1]} alt="" />
                   </figure>
                 </div>
               </div>
               <div className=" col-12 col-md-6 m-5 m-md-0">
-                <figure className="apartment__imageWrapper col-12 col-md-12 m-auto">
+                <figure className="apartment__imageWrapper col-12 col-md-12 m-auto shadow">
                   <img src={item.gallery[0]} alt="" />
                 </figure>
               </div>
