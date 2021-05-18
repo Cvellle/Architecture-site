@@ -10,7 +10,7 @@ class OurTeamPage extends Component {
     return (
       <div className={`our-team-wrap`}>
         <Helmet>
-          <title>Gening | Our Team Page</title>
+          <title>Rača residence | Our Team Page</title>
         </Helmet>
         <Breadcrumb title={"Our Team"} />
         <div className="section-wrapper">
@@ -47,11 +47,12 @@ class OurTeamPage extends Component {
         <div className="section-wrapper">
           <Parallax
             className={`section-parallax`}
-            bgImage={`${process.env.PUBLIC_URL}/assets/imagewebp/ourteam/img_bg.webp`}
+            bgImage={`${process.env
+              .PUBLIC_URL}/assets/imagewebp/ourteam/img_bg.webp`}
             bgImageAlt="the cat"
             strength={500}
           >
-            <div className="background-overlay"></div>
+            <div className="background-overlay" />
             <div className="about-parallax  position-relative">
               <div className="container">
                 <div className="row">
@@ -60,7 +61,7 @@ class OurTeamPage extends Component {
                       <div className="featured-box-wrap">
                         <div className="featured-box-top">
                           <div className="featured-box-icon">
-                            <i className="opal-icon-map"></i>
+                            <i className="opal-icon-map" />
                           </div>
                           <h3 className="featured-box-title text-uppercase">
                             Flexible, Contemporary Spaces
@@ -81,7 +82,7 @@ class OurTeamPage extends Component {
                       <div className="featured-box-wrap">
                         <div className="featured-box-top">
                           <div className="featured-box-icon">
-                            <i className="opal-icon-user"></i>
+                            <i className="opal-icon-user" />
                           </div>
                           <h3 className="featured-box-title text-uppercase">
                             Dedicated Production And Planning Teams
@@ -101,7 +102,7 @@ class OurTeamPage extends Component {
                       <div className="featured-box-wrap">
                         <div className="featured-box-top">
                           <div className="featured-box-icon">
-                            <i className="opal-icon-coffee"></i>
+                            <i className="opal-icon-coffee" />
                           </div>
                           <h3 className="featured-box-title text-uppercase">
                             Premium, Fresh Cuisine Made Onsite

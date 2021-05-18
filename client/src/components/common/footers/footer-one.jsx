@@ -106,7 +106,7 @@ class FooterOne extends Component {
           <div className="container text-center">
             <div className="row">
               <div className="col-sm-12">
-                <Copyright title="Cvele" />
+                <Copyright title="Archin" />
               </div>
               {/* <div className="col-sm-12">
                 <div className="social">

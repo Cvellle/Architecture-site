@@ -11,7 +11,7 @@ class ApartmentsPage extends Component {
       <div className={`apartments-page-wrap`}>
         <Breadcrumb title={"Stanovi"} />
         <Helmet>
-          <title>Gening | Stanovi</title>
+          <title>Rača residence | Stanovi</title>
         </Helmet>
         <ContentWrap isBoxed={true}>
           <ApartmentArchiveBlock number={50} />
@@ -20,9 +20,9 @@ class ApartmentsPage extends Component {
     );
   }
 }
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   return {
-    items: state.apartments.apartments,
+    items: state.apartments.apartments
   };
 };
 

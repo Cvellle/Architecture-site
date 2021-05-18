@@ -27,7 +27,7 @@
                 "pod": "granitne pločice"
             },
             {
-                "room": "dnevni boravak s trpezarijom",
+                "room": "dnevni boravak sa trpezarijom",
                 "povrsina": 20.15,
                 "obim": 6.9,
                 "pod": "parket"
@@ -83,7 +83,7 @@
         "description": "STAN 02 - dvosoban",
         "rooms": [
             {
-                "room": "dnevni boravak s trpezarijom",
+                "room": "dnevni boravak sa trpezarijom",
                 "povrsina": 21.51,
                 "obim": 21.68,
                 "pod": "granitne pločice"
@@ -207,7 +207,7 @@
         "description": "STAN 04 - jednoiposoban",
         "rooms": [
             {
-                "room": "dnevni boravak s trpezarijom",
+                "room": "dnevni boravak sa trpezarijom",
                 "povrsina": 21.27,
                 "obim": 20.82,
                 "pod": "granitne pločice"
@@ -499,7 +499,7 @@
                 "pod": "granitne pločice"
             },
             {
-                "room": "dnevni boravak s trpezarijom",
+                "room": "dnevni boravak sa trpezarijom",
                 "povrsina": 20.23,
                 "obim": 20.82,
                 "pod": "parket"
@@ -567,7 +567,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 3.98,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -635,7 +635,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 4.48,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -703,7 +703,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 3.87,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -803,7 +803,7 @@
                 "pod": "granitne pločice"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 4.08,
                 "obim": 13.90,
                 "pod": "parket"
@@ -877,7 +877,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 3.98,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -921,7 +921,7 @@
                 "pod": "granitne pločice"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 4.08,
                 "obim": 13.90,
                 "pod": "parket"
@@ -971,7 +971,7 @@
                 "pod": "granitne pločice"
             },
             {
-                "room": "kihinja",
+                "room": "kuhinja",
                 "povrsina": 4.59,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -989,7 +989,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 4.01,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -1045,7 +1045,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 3.98,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -1119,7 +1119,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 4.48,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -1163,7 +1163,7 @@
         "description": "STAN 20 - jednoiposoban",
         "rooms": [
             {
-                "room": "dnevni boravak s trpezarijom",
+                "room": "dnevni boravak sa trpezarijom",
                 "povrsina": "21.10",
                 "obim": 20.82,
                 "pod": "granitne pločice"
@@ -1187,7 +1187,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 3.87,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -1237,7 +1237,7 @@
                 "pod": "granitne pločice"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 3.69,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -1287,7 +1287,7 @@
                 "pod": "granitne pločice"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 4.08,
                 "obim": 13.90,
                 "pod": "parket"
@@ -1361,7 +1361,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 3.98,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -1405,7 +1405,7 @@
                 "pod": "granitne pločice"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 4.08,
                 "obim": 13.90,
                 "pod": "parket"
@@ -1455,7 +1455,7 @@
                 "pod": "granitne pločice"
             },
             {
-                "room": "kihinja",
+                "room": "kuhinja",
                 "povrsina": 4.59,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -1473,7 +1473,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 4.01,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -1529,7 +1529,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 3.98,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -1597,7 +1597,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 4.48,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -1641,7 +1641,7 @@
         "description": "STAN 28 - jednoiposoban",
         "rooms": [
             {
-                "room": "dnevni boravak s trpezarijom",
+                "room": "dnevni boravak sa trpezarijom",
                 "povrsina": "21.10",
                 "obim": 20.82,
                 "pod": "granitne pločice"
@@ -1665,7 +1665,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 3.87,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -1715,7 +1715,7 @@
                 "pod": "granitne pločice"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 3.69,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -1765,7 +1765,7 @@
                 "pod": "granitne pločice"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 4.08,
                 "obim": 13.90,
                 "pod": "parket"
@@ -1821,7 +1821,7 @@
                 "pod": "granitne pločice"
             },
             {
-                "room": "dnevni boravak s trpezarijom",
+                "room": "dnevni boravak sa trpezarijom",
                 "povrsina": "21.50",
                 "obim": 13.90,
                 "pod": "parket"
@@ -1839,7 +1839,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 3.98,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -1851,7 +1851,7 @@
                 "pod": "granitne pločice"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 3.71,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -1913,7 +1913,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 4.22,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -1981,7 +1981,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 3.91,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -2049,7 +2049,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 4.48,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -2117,7 +2117,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 3.87,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -2247,7 +2247,7 @@
                 "pod": "granitne pločice"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 4.08,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -2291,7 +2291,7 @@
                 "pod": "parket"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 3.85,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -2335,7 +2335,7 @@
                 "pod": "granitne pločice"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 4.01,
                 "obim": 13.90,
                 "pod": "granitne pločice"
@@ -2397,7 +2397,7 @@
                 "pod": "granitne pločice"
             },
             {
-                "room": "kpatilo",
+                "room": "kupatilo",
                 "povrsina": 4.48,
                 "obim": 13.90,
                 "pod": "granitne pločice"

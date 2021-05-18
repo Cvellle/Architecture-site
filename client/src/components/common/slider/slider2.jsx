@@ -7,44 +7,44 @@ class CarouselPage2 extends Component {
     super(props);
     this.data = [
       {
-        image: `/assets/imagewebp/slider/sliderhome3_1.webp`,
+        image: `/assets/images/slider2/indexGallery1.jpg`,
         title: `Razne vrste pogodnosti, \n Mnoge zanimljive aktivnosti `,
         description:
           "Naša definicija dizajna teži tome da konstantno napreduje daljem razvijanju iskustva i ugođaja naših klijenata na našem prostoru.",
-        link: "#",
+        link: "#"
       },
       {
-        image: `/assets/imagewebp/slider/sliderhome3_2.webp`,
+        image: `/assets/images/slider2/indexGallery2.jpg`,
         title: `Razne vrste pogodnosti, \n Mnoge zanimljive aktivnosti `,
         description:
           "Naša definicija dizajna teži tome da konstantno napreduje daljem razvijanju iskustva i ugođaja naših klijenata na našem prostoru.",
-        link: "#",
+        link: "#"
       },
       {
-        image: `/assets/imagewebp/slider/sliderhome3_3.webp`,
+        image: `/assets/images/slider2/indexGallery3.jpg`,
         title: `Razne vrste pogodnosti, \n Mnoge zanimljive aktivnosti `,
         description:
           "Naša definicija dizajna teži tome da konstantno napreduje daljem razvijanju iskustva i ugođaja naših klijenata na našem prostoru.",
-        link: "#",
+        link: "#"
       },
       {
-        image: `/assets/imagewebp/slider/sliderhome3_4.webp`,
+        image: `/assets/images/slider2/indexGallery4.jpg`,
         title: `Razne vrste pogodnosti, \n Mnoge zanimljive aktivnosti `,
         description:
           "Naša definicija dizajna teži tome da konstantno napreduje daljem razvijanju iskustva i ugođaja naših klijenata na našem prostoru.",
-        link: "#",
-      },
+        link: "#"
+      }
     ];
     this.state = {
       active: this.data[0],
-      slideIndex: 0,
+      slideIndex: 0
     };
   }
 
   slideChange = (old, index) => {
     this.setState({
       active: this.data[index],
-      slideIndex: index,
+      slideIndex: index
     });
   };
 
@@ -56,7 +56,7 @@ class CarouselPage2 extends Component {
     return className;
   }
 
-  clickDot = (index) => {
+  clickDot = index => {
     this.slider.slickGoTo(index);
   };
 
@@ -67,7 +67,7 @@ class CarouselPage2 extends Component {
       infinite: true,
       speed: 1000,
       slidesToShow: 1,
-      slidesToScroll: 1,
+      slidesToScroll: 1
     };
 
     return (
@@ -76,14 +76,14 @@ class CarouselPage2 extends Component {
           <div className="col-lg-6 col-md-12 m-0 p-0">
             <Slider
               {...settings}
-              ref={(slider) => (this.slider = slider)}
+              ref={slider => (this.slider = slider)}
               beforeChange={this.slideChange}
             >
-              {this.data.map((data, index) => (
+              {this.data.map((data, index) =>
                 <div className="slider-item" key={index}>
                   <img src={data.image} alt="" className="img-fluid" />
                 </div>
-              ))}
+              )}
             </Slider>
           </div>
           <div className="col-lg-4 col-md-10  d-flex align-items-center">
@@ -92,8 +92,9 @@ class CarouselPage2 extends Component {
                 <h3 className="text-white text-uppercase mb-4">
                   {this.state.active.title}
                 </h3>
-                <p className="slider-desc">{this.state.active.description}</p>
-                <a className="btn btn-link p-0">Saznaj više</a>
+                <p className="slider-desc">
+                  {this.state.active.description}
+                </p>
               </div>
             </div>
           </div>
@@ -101,7 +102,7 @@ class CarouselPage2 extends Component {
           <div className="col-lg-2 col-md-2 d-flex align-items-center ">
             <div className="navigation">
               <ul className="bullets-vertical">
-                {this.data.map((item, index) => (
+                {this.data.map((item, index) =>
                   <li
                     className={this.checkActive(index)}
                     key={index}
@@ -109,7 +110,7 @@ class CarouselPage2 extends Component {
                   >
                     <span className="bullet-inner" />
                   </li>
-                ))}
+                )}
               </ul>
             </div>
           </div>

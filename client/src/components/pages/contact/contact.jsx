@@ -13,18 +13,18 @@ class ContactPage extends Component {
       email: "",
       phone: "",
       address: "",
-      sentText: "",
+      sentText: ""
     };
   }
 
-  handleSubmit = (e) => {
+  handleSubmit = e => {
     e.preventDefault();
     const dataToSubmit = {
       message: this.state.message,
       name: this.state.name,
       email: this.state.email,
       phone: this.state.phone,
-      address: this.state.address,
+      address: this.state.address
     };
 
     axios
@@ -32,9 +32,9 @@ class ContactPage extends Component {
       .then(this.setState({ sentText: "Vaša poruka je uspešno poslata!" }));
   };
 
-  changeString = (e) => {
+  changeString = e => {
     this.setState({
-      [e.target.dataset.kind]: e.target.value,
+      [e.target.dataset.kind]: e.target.value
     });
   };
 
@@ -42,7 +42,7 @@ class ContactPage extends Component {
     return (
       <div className={`contact-page-wrap`}>
         <Helmet>
-          <title>Gening | Kontakt</title>
+          <title>Rača residence | Kontakt</title>
         </Helmet>
         <Breadcrumb title={"Kontakt"} />
         <div className="section-wrapper">
@@ -154,7 +154,9 @@ class ContactPage extends Component {
                   Pošaljite poruku <i className="opal-icon-arrow" />
                 </button>
               </div>
-              <p className="col-12 mt-3 text-center">{this.state.sentText}</p>
+              <p className="col-12 mt-3 text-center">
+                {this.state.sentText}
+              </p>
             </div>
           </form>
         </div>

@@ -15,7 +15,7 @@ class BlogPage extends Component {
     this.state = {
       items: this.props.items.slice(start, start + this.number),
       pages: Math.ceil(this.props.items.length / this.number),
-      currentPage: currentPage,
+      currentPage: currentPage
     };
   }
 
@@ -33,7 +33,7 @@ class BlogPage extends Component {
     window.location.hash = `page-${page + 1}`;
     this.setState({
       items: this.props.items.slice(start, start + this.number),
-      currentPage: page,
+      currentPage: page
     });
   }
 
@@ -41,14 +41,14 @@ class BlogPage extends Component {
     return (
       <div className={`blog-page-wrap`}>
         <Helmet>
-          <title>Gening | Blog Page</title>
+          <title>Rača residence | Blog Page</title>
         </Helmet>
         <Breadcrumb title={"Blog"} />
         <ContentWrap sidebar={`blog`} isBoxed={true} position={`right`}>
           <div className={`blog-list-wrap`}>
-            {this.state.items.map((item, index) => (
+            {this.state.items.map((item, index) =>
               <article className={`blog-item`} key={index}>
-                {item.images.thumbnail && (
+                {item.images.thumbnail &&
                   <div className="thumbnail">
                     <Link to={`${process.env.PUBLIC_URL}/news/${item.id}`}>
                       <img
@@ -57,9 +57,10 @@ class BlogPage extends Component {
                         alt=""
                       />
                     </Link>
-                    <span className="posted-on">{item.date}</span>
-                  </div>
-                )}
+                    <span className="posted-on">
+                      {item.date}
+                    </span>
+                  </div>}
                 <div className="content">
                   <h4 className="title text-uppercase">
                     <Link to={`${process.env.PUBLIC_URL}/news/${item.id}`}>
@@ -69,7 +70,7 @@ class BlogPage extends Component {
                   <div
                     className="entry-content"
                     dangerouslySetInnerHTML={{ __html: item.excerpt }}
-                  ></div>
+                  />
                   <div className="entry-meta">
                     <div className="entry-meta-inner">
                       <span className="entry-category">
@@ -85,10 +86,10 @@ class BlogPage extends Component {
                   </div>
                 </div>
               </article>
-            ))}
+            )}
 
             <ul className="pagination justify-content-center">
-              {new Array(this.state.pages).fill().map((item, index) => (
+              {new Array(this.state.pages).fill().map((item, index) =>
                 <li
                   className={
                     this.state.currentPage === index
@@ -98,9 +99,11 @@ class BlogPage extends Component {
                   key={index}
                   onClick={() => this.updatePage(index)}
                 >
-                  <span className="page-link">{index + 1}</span>
+                  <span className="page-link">
+                    {index + 1}
+                  </span>
                 </li>
-              ))}
+              )}
             </ul>
           </div>
         </ContentWrap>
@@ -109,9 +112,9 @@ class BlogPage extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   return {
-    items: state.news.blog,
+    items: state.news.blog
   };
 };
 

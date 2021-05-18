@@ -13,7 +13,7 @@ class AboutPage extends Component {
     return (
       <div className="about-page-wrap">
         <Helmet>
-          <title>Gening | O nama</title>
+          <title>Rača residence | O nama</title>
         </Helmet>
         <Breadcrumb title={"O nama"} />
 

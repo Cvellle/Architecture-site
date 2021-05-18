@@ -1,11 +1,11 @@
 [
     {
-        "title": "Jednosobni",
-        "description": "Kompleks čine stanovi različitih struktura, raspoređeni u nekoliko stambenih objekata. Zgrade u ponudi imaju konforne dvosobne, trosobne i četvorosobne stabmene jedinice smeštene u nekoliko lamela.",
+        "title": "Garsonjera",
+        "description": "Objekat čine stanovi različitih struktura, različito raspoređeni po nivoima. Zgrada u ponudi ima konforne garsonjere, jednosobne, dvosobne, trosobne i četvorosobne stabmene jedinice kao i stanove na povučenom spratu",
         "attributes": [
             {
                 "name": "Sprat",
-                "option": "2"
+                "option": "5"
             },
             {
                 "name": "Br. soba",
@@ -13,26 +13,46 @@
             },
             {
                 "name": "Kvadartura",
-                "option": "80.20"
+                "option": "27.44"
             },
             {
                 "name": "PARKING",
                 "option": "da"
-            },
-            {
-                "name": "Cena",
-                "option": "1000eur/m2"
             }
         ],
-        "image": "/assets/images/apartment/img-06.jpg"
+        "image": "/assets/images/apartment/stanovi2/garsonjera.jpg"
     },
     {
-        "title": "Dvosobni",
-        "description": "Kompleks čine stanovi različitih struktura, raspoređeni u nekoliko stambenih objekata. Zgrade u ponudi imaju konforne dvosobne, trosobne i četvorosobne stabmene jedinice smeštene u nekoliko lamela.",
+        "title": "Jednosobni",
+        "description": "Objekat čine stanovi različitih struktura, različito raspoređeni po nivoima. Zgrada u ponudi ima konforne garsonjere, jednosobne, dvosobne, trosobne i četvorosobne stabmene jedinice kao i stanove na povučenom spratu",
         "attributes": [
             {
                 "name": "Sprat",
-                "option": "2"
+                "option": "Prizemlje"
+            },
+            {
+                "name": "Br. soba",
+                "option": "1"
+            },
+            {
+                "name": "Kvadartura",
+                "option": "35.53"
+            },
+            {
+                "name": "PARKING",
+                "option": "da"
+            }
+        ],
+        "image": "/assets/images/apartment/stanovi2/jednosoban.jpg",
+        "position": "left"
+    },
+    {
+        "title": "Dvosobni",
+        "description": "Objekat čine stanovi različitih struktura, različito raspoređeni po nivoima. Zgrada u ponudi ima konforne garsonjere, jednosobne, dvosobne, trosobne i četvorosobne stabmene jedinice kao i stanove na povučenom spratu",
+        "attributes": [
+            {
+                "name": "Sprat",
+                "option": "3"
             },
             {
                 "name": "Br. soba",
@@ -40,27 +60,22 @@
             },
             {
                 "name": "Kvadartura",
-                "option": "80.20"
+                "option": "49.99"
             },
             {
                 "name": "PARKING",
                 "option": "da"
-            },
-            {
-                "name": "Cena",
-                "option": "1000eur/m2"
             }
         ],
-        "image": "/assets/images/apartment/img-07.jpg",
-        "position": "left"
+        "image": "/assets/images/apartment/stanovi2/dvosoban.jpg"
     },
     {
-        "title": "Trosobni duplex",
-        "description": "Kompleks čine stanovi različitih struktura, raspoređeni u nekoliko stambenih objekata. Zgrade u ponudi imaju konforne dvosobne, trosobne i četvorosobne stabmene jedinice smeštene u nekoliko lamela.",
+        "title": "Trosobni",
+        "description": "Objekat čine stanovi različitih struktura, različito raspoređeni po nivoima. Zgrada u ponudi ima konforne garsonjere, jednosobne, dvosobne, trosobne i četvorosobne stabmene jedinice kao i stanove na povučenom spratu",
         "attributes": [
             {
                 "name": "Sprat",
-                "option": "2"
+                "option": "1"
             },
             {
                 "name": "Br. soba",
@@ -68,54 +83,23 @@
             },
             {
                 "name": "Kvadartura",
-                "option": "245.50"
+                "option": "67.13"
             },
             {
                 "name": "PARKING",
                 "option": "da"
-            },
-            {
-                "name": "Cena",
-                "option": "1000eur/m2"
             }
         ],
-        "image": "/assets/images/apartment/img-08.jpg"
-    },
-    {
-        "title": "Četvorosobni",
-        "description": "Kompleks čine stanovi različitih struktura, raspoređeni u nekoliko stambenih objekata. Zgrade u ponudi imaju konforne dvosobne, trosobne i četvorosobne stabmene jedinice smeštene u nekoliko lamela.",
-        "attributes": [
-            {
-                "name": "Sprat",
-                "option": "2"
-            },
-            {
-                "name": "Br. soba",
-                "option": "4"
-            },
-            {
-                "name": "Kvadartura",
-                "option": "80.20"
-            },
-            {
-                "name": "PARKING",
-                "option": "da"
-            },
-            {
-                "name": "Cena",
-                "option": "1000eur/m2"
-            }
-        ],
-        "image": "/assets/images/apartment/img-09.jpg",
+        "image": "/assets/images/apartment/stanovi2/trosoban.jpg",
         "position": "left"
     },
     {
-        "title": "Lux",
-        "description": "Kompleks čine stanovi različitih struktura, raspoređeni u nekoliko stambenih objekata. Zgrade u ponudi imaju konforne dvosobne, trosobne i četvorosobne stabmene jedinice smeštene u nekoliko lamela.",
+        "title": "Četvorosobni",
+        "description": "Objekat čine stanovi različitih struktura, različito raspoređeni po nivoima. Zgrada u ponudi ima konforne garsonjere, jednosobne, dvosobne, trosobne i četvorosobne stabmene jedinice kao i stanove na povučenom spratu",
         "attributes": [
             {
                 "name": "Sprat",
-                "option": "2"
+                "option": "5"
             },
             {
                 "name": "Br. soba",
@@ -123,17 +107,13 @@
             },
             {
                 "name": "Kvadartura",
-                "option": "80.20"
+                "option": "107.20"
             },
             {
                 "name": "PARKING",
                 "option": "da"
-            },
-            {
-                "name": "Cena",
-                "option": "1000eur/m2"
             }
         ],
-        "image": "/assets/images/apartment/img-10.jpg"
+        "image": "/assets/images/apartment/stanovi2/cetvorosoban.jpg"
     }
 ]
