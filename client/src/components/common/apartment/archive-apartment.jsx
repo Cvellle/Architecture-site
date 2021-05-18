@@ -34,41 +34,42 @@ class ApartmentArchiveBlock extends Component {
   }
 
   render() {
-    const filtered = this.state.items.filter((el) => el.level == window.location.href.slice(-1));
+    const filtered = this.state.items.filter(
+      (el) => el.level == window.location.href.split("/").pop().slice(5)
+    );
     return (
-      <div className={`apartment-block-wrap`}>      
+      <div className={`apartment-block-wrap`}>
         <div className={`row${this.props.noGutters ? " no-gutters" : ""}`}>
           {filtered.map((apartment, index) => (
             <div className="col-lg-4 col-sm-6" key={index}>
-              <div className="property">
-                <div className="property-wrap">
-                  <div className="post-thumbnail">
-                    <Link to={`/apartment/${apartment.title}`}>
+              <Link to={`/apartment/${apartment.title}`}>
+                <div className="property">
+                  <div className="property-wrap">
+                    <div className="post-thumbnail">
                       <img
                         className="img-apartment"
                         src={apartment.images.thumbnail}
                         alt={apartment.title}
                       />
-                    </Link>
-                  </div>
-                  <div className="entry-content text-center text-uppercase">
-                    <div className="property-title text-white">
-                      <Link to={`/apartment/${apartment.title}`}>
-                        {apartment.title}
-                      </Link>
                     </div>
-                    <div className="link-more">
-                      <Link to={`/apartment/${apartment.title}`}>
-                        Saznaj više
-                      </Link>
+                    <div className="entry-content text-center text-uppercase">
+                      <div className="property-title text-white">
+                        <div>
+                          <span>{apartment.title}</span>
+                          <div>{apartment.description.split(" - ")[1]}</div>
+                        </div>
+                      </div>
+                      <div className="link-more">
+                        <span>Saznaj više</span>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           ))}
         </div>
-        <ul className="pagination">
+        {/* <ul className="pagination">
           {new Array(this.state.pages).fill().map((item, index) => (
             <li
               className={
@@ -82,7 +83,7 @@ class ApartmentArchiveBlock extends Component {
               <span className="page-link">{index + 1}</span>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     );
   }

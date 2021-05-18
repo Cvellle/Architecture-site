@@ -14,7 +14,7 @@ class ApartmentsPage extends Component {
           <title>Gening | Stanovi</title>
         </Helmet>
         <ContentWrap isBoxed={true}>
-          <ApartmentArchiveBlock number={9} />
+          <ApartmentArchiveBlock number={50} />
         </ContentWrap>
       </div>
     );

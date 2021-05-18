@@ -21,6 +21,7 @@ import PageNotFound from "./components/404";
 
 // Features
 import Layout from "./app";
+import Locations from "./components/pages/locations/locations";
 import AboutPage from "./components/pages/about/about";
 import ContactPage from "./components/pages/contact/contact";
 import BlogPage from "./components/pages/blog/blog";
@@ -50,6 +51,7 @@ class Root extends React.Component {
                   <Route exact path={`/home-3`} component={Home3} />
                   <Route exact path={`/home-4`} component={Home4} />
                   {/*Pages*/}
+                  <Route path={`/lokacije`} component={Locations} />
                   <Route path={`/o-nama`} component={AboutPage} />
                   <Route path={`/our-team`} component={OurTeamPage} />
                   <Route path={`/our-services`} component={OurServicesPage} />
@@ -64,10 +66,7 @@ class Root extends React.Component {
                     path={`/apartment/:title`}
                     component={ApartmentSinglePage}
                   />
-                   <Route
-                    path={`/spratovi/:sprat`}
-                    component={ApartmentsPage}
-                  />
+                  <Route path={`/spratovi/:sprat`} component={ApartmentsPage} />
                   {/* <Route path={`/garaze`} component={BlogPage}/> */}
                   <Route path={`/garaze`} component={Home2} />
                   <Route path={`/garaze/:id`} component={SingBlogPage} />

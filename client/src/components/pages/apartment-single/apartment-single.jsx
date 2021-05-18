@@ -13,7 +13,7 @@ class ApartmentSinglePage extends Component {
     infinite: true,
     speed: 1000,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
   };
 
   render() {
@@ -25,9 +25,7 @@ class ApartmentSinglePage extends Component {
           parent={[{ path: "apartments", title: "Stanovi" }]}
         />
         <Helmet>
-          <title>
-            Gening | {item.title}
-          </title>
+          <title>Gening | {item.title}</title>
         </Helmet>
         <ContentWrap isBoxed={true}>
           <div className="entry-image text-center">
@@ -50,22 +48,14 @@ class ApartmentSinglePage extends Component {
                       </td>
                       <td>VRSTA PODA</td>
                     </tr>
-                    {item.rooms.map((content, index) =>
+                    {item.rooms.map((content, index) => (
                       <tr>
-                        <td>
-                          0{index + 1}
-                        </td>
-                        <td>
-                          {content.room}
-                        </td>
-                        <td>
-                          {content.povrsina}
-                        </td>
-                        <td>
-                          {content.pod}
-                        </td>
+                        <td>0{index + 1}</td>
+                        <td>{content.room}</td>
+                        <td>{content.povrsina}</td>
+                        <td>{content.pod}</td>
                       </tr>
-                    )}
+                    ))}
                     <tr>
                       <td colspan="5">&nbsp;</td>
                     </tr>
@@ -73,18 +63,14 @@ class ApartmentSinglePage extends Component {
                       <td colspan="2" className="text-left pl-2">
                         Neto zatvorena površina
                       </td>
-                      <td>
-                        {item.netoPovrsina.zatvorena}
-                      </td>
+                      <td>{item.netoPovrsina.zatvorena}</td>
                       <td />
                     </tr>
                     <tr>
                       <td colspan="2" className="text-left pl-2">
                         Neto otvorena površina
                       </td>
-                      <td>
-                        {item.netoPovrsina.otvorena}
-                      </td>
+                      <td>{item.netoPovrsina.otvorena}</td>
                       <td />
                     </tr>
                     <tr>
@@ -92,7 +78,10 @@ class ApartmentSinglePage extends Component {
                         Ukupna neto površina
                       </td>
                       <td>
-                        {item.netoPovrsina.ukupna}
+                        {(
+                          Number(item.netoPovrsina.zatvorena) +
+                          Number(item.netoPovrsina.otvorena)
+                        ).toFixed(2)}
                       </td>
                       <td />
                     </tr>
@@ -118,7 +107,7 @@ class ApartmentSinglePage extends Component {
 const mapStateToProps = (state, ownProps) => {
   let apartmentID = ownProps.match.params.title;
   return {
-    item: state.apartments.apartments.find(el => el.title == apartmentID)
+    item: state.apartments.apartments.find((el) => el.title == apartmentID),
   };
 };
 

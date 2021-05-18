@@ -49,19 +49,24 @@ class Levels extends Component {
                 <div className="property">
                   <div className="property-wrap">
                     <div className="post-thumbnail">
-                      <Link to={`/spratovi/sprat${i}`}>
-                        <img
-                          className="img-apartment"
-                          src={`/assets/images/apartment/spratovi/${i}sprat.jpg`}
-                          alt={`sprat ${i}`}
-                        />
-                      </Link>
+                      <img
+                        className="img-apartment"
+                        src={`/assets/images/apartment/spratovi/${i}sprat.jpg`}
+                        alt={`sprat ${i}`}
+                      />
                     </div>
                     <div className="entry-content text-center text-uppercase">
                       <div className="property-title text-white">
-                        <Link to={`/spratovi/sprat${i}`}>
-                          {i === 0 ? `PRIZEMLJE` : `SPRAT ${i}`}
-                        </Link>
+                        <div>
+                          {" "}
+                          <span>
+                            {i === 5
+                              ? "POVUČENI SPRAT"
+                              : i === 0
+                              ? `PRIZEMLJE`
+                              : `SPRAT ${i}`}
+                          </span>
+                        </div>
                       </div>
                       <div className="link-more">
                         <Link to={`/spratovi/sprat${i}`}>Saznaj više</Link>
