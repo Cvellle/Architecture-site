@@ -13,18 +13,18 @@ class ContactPage extends Component {
       email: "",
       phone: "",
       address: "",
-      sentText: ""
+      sentText: "",
     };
   }
 
-  handleSubmit = e => {
+  handleSubmit = (e) => {
     e.preventDefault();
     const dataToSubmit = {
       message: this.state.message,
       name: this.state.name,
       email: this.state.email,
       phone: this.state.phone,
-      address: this.state.address
+      address: this.state.address,
     };
 
     axios
@@ -32,9 +32,9 @@ class ContactPage extends Component {
       .then(this.setState({ sentText: "Vaša poruka je uspešno poslata!" }));
   };
 
-  changeString = e => {
+  changeString = (e) => {
     this.setState({
-      [e.target.dataset.kind]: e.target.value
+      [e.target.dataset.kind]: e.target.value,
     });
   };
 
@@ -55,8 +55,8 @@ class ContactPage extends Component {
                   </div>
                   <div className="content">
                     <span className="title text-uppercase">TELEFON :</span>
-                    <p className="description">011/123123</p>
-                    <p className="description">063/123123</p>
+                    {/* <p className="description">011/123123</p>
+                    <p className="description">063/123123</p> */}
                   </div>
                 </div>
               </div>
@@ -67,8 +67,8 @@ class ContactPage extends Component {
                   </div>
                   <div className="content">
                     <span className="title text-uppercase">ADRESA :</span>
-                    <p className="description">Industriska zona, Zmič bb</p>
-                    <p className="description">35250, Paraćin</p>
+                    {/* <p className="description">Industriska zona, Zmič bb</p>
+                    <p className="description">35250, Paraćin</p> */}
                   </div>
                 </div>
               </div>
@@ -79,7 +79,7 @@ class ContactPage extends Component {
                   </div>
                   <div className="content">
                     <span className="title text-uppercase">E-MAIL :</span>
-                    <p className="description">gening.pn@gmail.com</p>
+                    <p className="description">office@racaresidences.rs</p>
                     {/* <p className="description">info@gening.com</p> */}
                   </div>
                 </div>
@@ -154,9 +154,7 @@ class ContactPage extends Component {
                   Pošaljite poruku <i className="opal-icon-arrow" />
                 </button>
               </div>
-              <p className="col-12 mt-3 text-center">
-                {this.state.sentText}
-              </p>
+              <p className="col-12 mt-3 text-center">{this.state.sentText}</p>
             </div>
           </form>
         </div>

@@ -10,6 +10,7 @@ import { connect } from "react-redux";
 import LanguageSwitchBlock from "./common/language-switch";
 import Modal from "react-responsive-modal";
 import ContactForm from "../contact-form/contact-form";
+import "./header-one.scss";
 
 class HeaderOne extends Component {
   constructor(props) {

@@ -69,7 +69,7 @@ class Levels extends Component {
                         </div>
                       </div>
                       <div className="link-more">
-                        <Link to={`/spratovi/sprat${i}`}>Saznaj više</Link>
+                        <span>Saznaj više</span>
                       </div>
                     </div>
                   </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, useRouteMatch } from "react-router-dom";
 import { ScrollContext } from "react-router-scroll-4";
 import { IntlProvider } from "react-redux-multilingual";
 import "./index.scss";
@@ -38,6 +38,7 @@ import ApartmentSinglePage from "./components/pages/apartment-single/apartment-s
 
 class Root extends React.Component {
   render() {
+    // const { url } = useRouteMatch();
     store.dispatch(getAllData());
     return (
       <Provider store={store}>
@@ -46,30 +47,82 @@ class Root extends React.Component {
             <ScrollContext>
               <Switch>
                 <Layout>
-                  <Route exact path={`/`} component={Home2} />
-                  <Route exact path={`/home-2`} component={Home2} />
-                  <Route exact path={`/home-3`} component={Home3} />
-                  <Route exact path={`/home-4`} component={Home4} />
-                  {/*Pages*/}
-                  <Route path={`/lokacije`} component={Locations} />
-                  <Route path={`/o-nama`} component={AboutPage} />
-                  <Route path={`/our-team`} component={OurTeamPage} />
-                  <Route path={`/our-services`} component={OurServicesPage} />
-                  <Route path={`/typography`} component={TypographyPage} />
-                  <Route path={`/faqs`} component={FAQPage} />
-                  <Route path={`/kontakt`} component={ContactPage} />
-                  {/* <Route path={`/kuce`} component={TheBuildingPage}/> */}
-                  <Route path={`/kuce`} component={Home2} />
-
-                  <Route path={`/stanovi`} component={Levels} />
                   <Route
-                    path={`/apartment/:title`}
+                    exact
+                    path={`${process.env.PUBLIC_URL}/`}
+                    component={Home2}
+                  />
+                  <Route
+                    exact
+                    path={`${process.env.PUBLIC_URL}/home-2`}
+                    component={Home2}
+                  />
+                  <Route
+                    exact
+                    path={`${process.env.PUBLIC_URL}/home-3`}
+                    component={Home3}
+                  />
+                  <Route
+                    exact
+                    path={`${process.env.PUBLIC_URL}/home-4`}
+                    component={Home4}
+                  />
+                  {/*Pages*/}
+                  <Route
+                    path={`${process.env.PUBLIC_URL}/lokacije`}
+                    component={Locations}
+                  />
+                  <Route
+                    path={`${process.env.PUBLIC_URL}/o-nama`}
+                    component={AboutPage}
+                  />
+                  <Route
+                    path={`${process.env.PUBLIC_URL}/our-team`}
+                    component={OurTeamPage}
+                  />
+                  <Route
+                    path={`${process.env.PUBLIC_URL}/our-services`}
+                    component={OurServicesPage}
+                  />
+                  <Route
+                    path={`${process.env.PUBLIC_URL}/typography`}
+                    component={TypographyPage}
+                  />
+                  <Route
+                    path={`${process.env.PUBLIC_URL}/faqs`}
+                    component={FAQPage}
+                  />
+                  <Route
+                    path={`${process.env.PUBLIC_URL}/kontakt`}
+                    component={ContactPage}
+                  />
+                  {/* <Route path={`${process.env.PUBLIC_URL}/kuce`} component={TheBuildingPage}/> */}
+                  <Route
+                    path={`${process.env.PUBLIC_URL}/kuce`}
+                    component={Home2}
+                  />
+
+                  <Route
+                    path={`${process.env.PUBLIC_URL}/stanovi`}
+                    component={Levels}
+                  />
+                  <Route
+                    path={`${process.env.PUBLIC_URL}/apartment/:title`}
                     component={ApartmentSinglePage}
                   />
-                  <Route path={`/spratovi/:sprat`} component={ApartmentsPage} />
-                  {/* <Route path={`/garaze`} component={BlogPage}/> */}
-                  <Route path={`/garaze`} component={Home2} />
-                  <Route path={`/garaze/:id`} component={SingBlogPage} />
+                  <Route
+                    path={`${process.env.PUBLIC_URL}/spratovi/:sprat`}
+                    component={ApartmentsPage}
+                  />
+                  {/* <Route path={`${process.env.PUBLIC_URL}/garaze`} component={BlogPage}/> */}
+                  <Route
+                    path={`${process.env.PUBLIC_URL}/garaze`}
+                    component={Home2}
+                  />
+                  <Route
+                    path={`${process.env.PUBLIC_URL}/garaze/:id`}
+                    component={SingBlogPage}
+                  />
                 </Layout>
               </Switch>
             </ScrollContext>

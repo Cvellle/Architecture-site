@@ -38,19 +38,19 @@ class FooterOne extends Component {
                   <ul>
                     <li>
                       <span className="icon-list-icon">ADRESA:</span>
-                      <span className="icon-list-text">
+                      {/* <span className="icon-list-text">
                         Industriska zona, Zmič bb,
                         <br /> 35250, Paraćin
-                      </span>
+                      </span> */}
                     </li>
                     <li>
                       <span className="icon-list-icon">TELEFON:</span>
-                      <span className="icon-list-text">063/123123</span>
+                      {/* <span className="icon-list-text"></span> */}
                     </li>
                     <li>
                       <span className="icon-list-icon">E-MAIL:</span>
                       <span className="icon-list-text">
-                        gening.pn@gmail.com
+                        office@racaresidences.rs
                       </span>
                     </li>
                   </ul>
