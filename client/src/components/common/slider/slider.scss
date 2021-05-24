@@ -20,6 +20,25 @@
       color: darken($primary, 10%) !important;
     }
   }
+
+  .catalogWrapper {
+    margin-top: 2rem;
+    transition: 0.3s;
+
+    &:hover {
+      filter: brightness(1.2);
+      transition: 0.3s;
+    }
+
+    a {
+      background-color: rgba(15, 10, 10, 0.336);
+      border: 3px solid #cb952a63;
+      padding: 1rem;
+      font-weight: 900;
+      color: #cb942a;
+      letter-spacing: 1px;
+    }
+  }
 }
 .slider-wrap {
   .slider-content {

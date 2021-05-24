@@ -29,6 +29,18 @@ class SliderHome extends Component {
                     Oaza kreirana za vas
                     <br />
                   </h5>
+                  <div className="catalogWrapper">
+                    <a
+                      href={"./assets/katalog.pdf"}
+                      without
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <span trailingIcon="picture_as_pdf" label="Resume">
+                        Pogledajte katalog
+                      </span>
+                    </a>
+                  </div>
                 </div>
                 <div className="slider-footer text-left">
                   <h6 className="text-white">Pozovite nas i zakažite</h6>
