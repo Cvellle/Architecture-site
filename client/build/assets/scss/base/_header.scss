@@ -1,4 +1,5 @@
 .site-header {
+  background-color: #242424;
   background: #fff;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
 }
@@ -65,11 +66,14 @@
         text-transform: uppercase;
         letter-spacing: 2px;
         color: $black4;
-        color: #c09338;
+        // color: #c09338;
         &:after {
           content: "";
           bottom: 0;
-          width: 0;
+          min-width: 0;
+          max-width: 0;
+          width: 0px;
+          font-size: 0;
           height: 3px;
           background-color: $primary;
           position: absolute;
@@ -87,7 +91,8 @@
         &:hover {
           color: $primary;
           &:after {
-            width: 40px;
+            min-width: 40px;
+            max-width: 40px;
           }
         }
       }

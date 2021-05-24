@@ -17,6 +17,16 @@ class Home2 extends Component {
   render() {
     return (
       <div className={`home-page-wrap`} className="m-0 p-0">
+        {/* <a
+          href={"./assets/Nikola Cvetić - CV.pdf"}
+          without
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <button trailingIcon="picture_as_pdf" label="Resume">
+            PDF
+          </button>
+        </a> */}
         <Helmet>
           <title>Rača residence</title>
           <meta
