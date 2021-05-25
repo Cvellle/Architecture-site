@@ -8,7 +8,7 @@ class SliderHome extends Component {
       infinite: true,
       speed: 800,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
     };
 
     return (
@@ -18,13 +18,13 @@ class SliderHome extends Component {
             <div
               className="slider-image"
               style={{
-                backgroundImage: "url(/assets/imagewebp/theme/slide1.jpg)"
+                backgroundImage: "url(/assets/imagewebp/theme/slide1.jpg)",
               }}
             />
             <div className="container">
               <div className="slider-content">
                 <div className="text-center w-100">
-                  <h2 className="text-white">Rača residence</h2>
+                  <h2 className="text-white">Rača residences</h2>
                   <h5 className="text-white mt-5">
                     Oaza kreirana za vas
                     <br />
@@ -54,7 +54,7 @@ class SliderHome extends Component {
             <div
               className="slider-image"
               style={{
-                backgroundImage: "url(/assets/imagewebp/theme/slide2.jpg)"
+                backgroundImage: "url(/assets/imagewebp/theme/slide2.jpg)",
               }}
             />
             <div className="container">
