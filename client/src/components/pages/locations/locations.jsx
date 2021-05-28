@@ -35,7 +35,7 @@ class Locations extends Component {
               </div>
               <div className="col-lg-6 col-md-12 col-sm-1 d-flex2 locationWrapper">
                 <img
-                  className="img-fluid ml-auto"
+                  className="mx-md-auto mx-lg-unset d-block img-fluid ml-auto"
                   src="/assets/images/locations/lokacija_1.jpg"
                   alt=""
                 />
@@ -48,7 +48,7 @@ class Locations extends Component {
             <div className="row align-items-center ">
               <div className="col-lg-6 col-md-12 col-sm-12">
                 <img
-                  className="img-fluid "
+                  className="mx-md-auto mx-lg-unset d-block img-fluid "
                   src="/assets/images/locations/lokacija_2.jpg"
                   alt=""
                 />
@@ -78,23 +78,34 @@ class Locations extends Component {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-12 col-sm-12 content-left pl-md-3">
-                <Heading className="col-lg-10" />
+                <Heading className="col-lg-10 mb-2" />
                 <p className="col-lg-11 col-md-12 col-sm-12 text-black">
                   - Podovi u sobama stanova su u laminatu modernog dezena
-                  evropskog hrasta. <br /> - U kupatilama, kuhinjama i na
-                  terasama podovi su izrađeni od italijanskih granitnih pločica.{" "}
-                  <br /> - Sanitarije i vodovodne instalacije u kupatilima su
-                  izradjene od italijanskog i domaceg programa. <br /> -
-                  Unutrašnja vrata su od farbanog medijapana sa izolacijom.{" "}
-                  <br /> - Ulazna vrata stanova su sigurnosna sa multi-point
-                  sistemom zaključavanja. <br />
-                  Spoljna stolarija je od vrhunskih šesto-komornih PVC profila u
-                  beloj boji sa okovom renomiranih proizvođača.
+                  evropskog hrasta.
+                  <span className="d-block mt-3">
+                    - U kupatilama, kuhinjama i na terasama podovi su izrađeni
+                    od italijanskih granitnih pločica.
+                  </span>
+                  <span className="d-block mt-3">
+                    - Sanitarije i vodovodne instalacije u kupatilima su
+                    izradjene od italijanskog i domaceg programa.
+                  </span>
+                  <span className="d-block mt-3">
+                    - Unutrašnja vrata su od farbanog medijapana sa izolacijom.
+                  </span>
+                  <span className="d-block mt-3">
+                    - Ulazna vrata stanova su sigurnosna sa multi-point sistemom
+                    zaključavanja.
+                  </span>
+                  <span className="d-block mt-3">
+                    - Spoljna stolarija je od vrhunskih šesto-komornih PVC
+                    profila u beloj boji sa okovom renomiranih proizvođača.
+                  </span>
                 </p>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12">
                 <img
-                  className="img-fluid"
+                  className="mx-md-auto mx-lg-unset d-block img-fluid"
                   src="/assets/images/locations/lokacija_3.jpg"
                   alt=""
                 />
@@ -108,7 +119,7 @@ class Locations extends Component {
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-12 col-sm-12">
                 <img
-                  className="img-fluid"
+                  className="mx-md-auto mx-lg-unset d-block img-fluid"
                   src="/assets/images/locations/lokacija_4.jpg"
                   alt=""
                 />
