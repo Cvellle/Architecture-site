@@ -29,7 +29,7 @@ class OverviewFluidSection extends Component {
           <div className="col-lg-6 col-md-12 col-sm-12 align-self-center text-center">
             <img
               className="img-fluid"
-              src="/assets/images/gallery1/04.jpg"
+              src="/assets/images/gallery1/01.jpg"
               alt=""
             />
           </div>
