@@ -2544,39 +2544,51 @@
             "./assets/images/apartment/6.poslovni/stan1/so1.jpg",
             "./assets/images/apartment/6.poslovni/stan1/orijentacija.jpg"
         ],
-        "description": "STAN 43 - poslovni prostor",
+        "description": "STAN 43 - prodajni prostor",
         "rooms": [
             {
-                "room": "dnevni boravak",
-                "povrsina": 21.51,
-                "obim": 21.70,
+                "room": "prodajni prostor",
+                "povrsina": 92.19,
+                "obim": 7.40,
                 "pod": "granitne pločice"
             },
             {
-                "room": "trpezarija s kuhinjom",
-                "povrsina": 11.43,
-                "obim": 13.90,
+                "room": "čajna kuhinja",
+                "povrsina": 5.33,
+                "obim": 9.72,
                 "pod": "granitne pločice"
             },
             {
-                "room": "kupatilo",
-                "povrsina": 3.69,
-                "obim": 13.90,
-                "pod": "granitne pločice"
+                "room": "hodnik",
+                "povrsina": 3.72,
+                "obim": 20.00,
+                "pod": "parket"
             },
             {
-                "room": "terasa",
-                "povrsina": 3.69,
+                "room": "prostor sa umivaonikom",
+                "povrsina": 2.62,
+                "obim": 5.40,
+                "pod": "parket"
+            },
+            {
+                "room": "wc",
+                "povrsina": 1.71,
+                "obim": 5.50,
+                "pod": "parket"
+            },
+            {
+                "room": "ostava",
+                "povrsina": 8.80,
                 "obim": 4.86,
                 "pod": "granitne pločice"
             }
         ],
         "netoPovrsina": {
-            "zatvorena": 35.53,
+            "zatvorena": 110.94,
             "umanjenjeZ": 3,
-            "otvorena": 4.86,
+            "otvorena": 0,
             "umanjenjeO": 0,
-            "ukupna": 40.39
+            "ukupna": 110.94
         },
         "content": "<p><strong>Introducing single apartment, the stunning new addition to the downtown Manhattan skyline. A perfect blend of breathtaking architecture designed, with awe-inspiring interiors envisioned</strong></p>\n<p>Sleek and sophisticated, MaisonCo offers qualities always coveted, but rarely obtained in the finest New York rental residences \u2013 a unique blend of generously proportioned interiors and the enjoyment of Nassau Club over 10,000 square feet of indoor and outdoor amenities creatively conceived to enhance your exceptional FiDi lifestyle.</p>\n<h3>Delivering High Quality Projects</h3>\n<p>Staying calm, composed and maintaining strong self esteem in today\u2019s tough environment can be difficult but is not impossible if you follow a few simple guidelines. Here are 6 tips you can use as a starter guide to self improvement.</p>\n<p>Everything and everyone else around you can affect your self esteem. Other people can deliberately or inadvertently damage your self image. Unchecked people and circumstances can ultimately destroy your</p>\n<ul>\n<li><strong>Additional service including linen and room amenities as described above</strong></li>\n<li><strong>Same day laundry and valet service</strong></li>\n<li><strong>High-speed internet and WiFi access</strong></li>\n<li><strong>Private condominium reception desk</strong></li>\n<li><strong>Luxury furnishings</strong></li>\n<li><strong>Meeting rooms and catering facilities</strong></li>\n</ul>\n<p>Healthy self esteem originates in the environment found in the: family, school, peer group, work place, and community. There are certain characteristics of your environment that need to be present in order for self esteem to be fostered and grow.</p>\n<p>The main component of a healthy environment for self esteem is that it needs to be nurturing. It should provide unconditional warmth, love, and caring. It needs to provide the realization that other people are recognized as deserving to be nurtured, reinforced, rewarded, and bonded to.</p>\n",
         "excerpt": "<p><strong>Introducing single apartment, the stunning new addition to the downtown Manhattan skyline. A perfect blend of breathtaking architecture designed, with awe-inspiring interiors envisioned</strong></p>\n<p>Sleek and sophisticated, MaisonCo offers qualities always coveted, but rarely obtained in the finest New York rental residences \u2013 a unique blend of generously proportioned interiors and the enjoyment of Nassau Club over 10,000 square feet of indoor and outdoor amenities creatively conceived to enhance your exceptional FiDi lifestyle.</p>\n<h3>Delivering High Quality Projects</h3>\n<p>Staying calm, composed and maintaining strong self esteem in today\u2019s tough environment can be difficult but is not impossible if you follow a few simple guidelines. Here are 6 tips you can use as a starter guide to self improvement.</p>\n<p>Everything and everyone else around you can affect your self esteem. Other people can deliberately or inadvertently damage your self image. Unchecked people and circumstances can ultimately destroy your</p>\n<ul>\n<li><strong>Additional service including linen and room amenities as described above</strong></li>\n<li><strong>Same day laundry and valet service</strong></li>\n<li><strong>High-speed internet and WiFi access</strong></li>\n<li><strong>Private condominium reception desk</strong></li>\n<li><strong>Luxury furnishings</strong></li>\n<li><strong>Meeting rooms and catering facilities</strong></li>\n</ul>\n<p>Healthy self esteem originates in the environment found in the: family, school, peer group, work place, and community. There are certain characteristics of your environment that need to be present in order for self esteem to be fostered and grow.</p>\n<p>The main component of a healthy environment for self esteem is that it needs to be nurturing. It should provide unconditional warmth, love, and caring. It needs to provide the realization that other people are recognized as deserving to be nurtured, reinforced, rewarded, and bonded to.</p>\n"
