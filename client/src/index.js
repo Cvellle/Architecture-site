@@ -7,19 +7,15 @@ import { IntlProvider } from "react-redux-multilingual";
 import "./index.scss";
 import "animate.css/animate.min.css";
 
-// Import custom components
 import store from "./store";
 import translations from "./constants/translations";
 
-// Layouts
 import Home1 from "./components/home-1";
 import Home2 from "./components/home-2";
 import Home3 from "./components/home-3";
 import Home4 from "./components/home-4";
-// Pages
 import PageNotFound from "./components/404";
 
-// Features
 import Layout from "./app";
 import Locations from "./components/pages/locations/locations";
 import AboutPage from "./components/pages/about/about";
@@ -38,7 +34,6 @@ import ApartmentSinglePage from "./components/pages/apartment-single/apartment-s
 
 class Root extends React.Component {
   render() {
-    // const { url } = useRouteMatch();
     store.dispatch(getAllData());
     return (
       <Provider store={store}>
@@ -96,7 +91,6 @@ class Root extends React.Component {
                     path={`${process.env.PUBLIC_URL}/kontakt`}
                     component={ContactPage}
                   />
-                  {/* <Route path={`${process.env.PUBLIC_URL}/kuce`} component={TheBuildingPage}/> */}
                   <Route
                     path={`${process.env.PUBLIC_URL}/kuce`}
                     component={Home2}
@@ -107,14 +101,13 @@ class Root extends React.Component {
                     component={Levels}
                   />
                   <Route
-                    path={`${process.env.PUBLIC_URL}/apartment/:title`}
+                    path={`${process.env.PUBLIC_URL}/stan/:id`}
                     component={ApartmentSinglePage}
                   />
                   <Route
                     path={`${process.env.PUBLIC_URL}/spratovi/:sprat`}
                     component={ApartmentsPage}
                   />
-                  {/* <Route path={`${process.env.PUBLIC_URL}/garaze`} component={BlogPage}/> */}
                   <Route
                     path={`${process.env.PUBLIC_URL}/garaze`}
                     component={Home2}
@@ -134,5 +127,3 @@ class Root extends React.Component {
 }
 
 ReactDOM.render(<Root />, document.getElementById("root"));
-
-//${process.env.PUBLIC_URL}

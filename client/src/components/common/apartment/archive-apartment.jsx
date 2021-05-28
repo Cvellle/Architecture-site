@@ -44,7 +44,7 @@ class ApartmentArchiveBlock extends Component {
         <div className={`row${this.props.noGutters ? " no-gutters" : ""}`}>
           {filtered.map((apartment, index) => (
             <div className="col-lg-4 col-sm-6" key={index}>
-              <Link to={`/apartment/${apartment.title}`}>
+              <Link to={`/stan/${apartment.id}`}>
                 <div className="property">
                   <div className="property-wrap">
                     <div className="post-thumbnail">

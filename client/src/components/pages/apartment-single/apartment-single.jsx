@@ -21,7 +21,7 @@ class ApartmentSinglePage extends Component {
     return (
       <div className={`apartments-page-wrap apartment`}>
         <Breadcrumb
-          title={item.title}
+          id={item.id}
           parent={[{ path: "apartments", title: "Stanovi" }]}
         />
         <Helmet>
@@ -107,9 +107,9 @@ class ApartmentSinglePage extends Component {
 }
 
 const mapStateToProps = (state, ownProps) => {
-  let apartmentID = ownProps.match.params.title;
+  let apartmentID = ownProps.match.params.id;
   return {
-    item: state.apartments.apartments.find((el) => el.title == apartmentID),
+    item: state.apartments.apartments.find((el) => el.id == apartmentID),
   };
 };
 
