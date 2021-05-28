@@ -16,7 +16,7 @@
   & .locationWrapper {
     img {
       filter: brightness(0.95);
-      border: 5px solid rgba(255, 217, 0, 0.356);
+      // border: 5px solid rgba(255, 217, 0, 0.356);
       border-style: outset;
       transition: 0.5s;
 
@@ -27,6 +27,10 @@
       //   transition: 1s;
       // }
     }
+  }
+
+  .heading-title {
+    margin-bottom: 20px;
   }
 }
 .about-page-wrap {

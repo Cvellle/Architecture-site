@@ -23,14 +23,14 @@ class Locations extends Component {
               <div className="col-lg-6 col-md-12 col-sm-12 content-left pl-md-3">
                 <Heading className="col-lg-10" />
                 <p className="col-lg-10 col-md-12 col-sm-12 text-black">
-                  Stambeno-poslovni objekat Rača Residences se nalazi u samom
-                  centru Rače na samo 500 m od opstine i 800 m od Karadjordjevog
-                  doma.
+                  Stambeno-poslovni objekat Rača Residences se nalazi u ulici
+                  Vojvode Pavla Cukića br 7.
                   <br /> <br />
-                  Objekat cini stambeno-poslovna zgrada sa 1 poslovnim prostorom
-                  i 42 stana u ul. Vojvode Pavla Cukića, dok je parking prostor
-                  planiran u zadnjem delu dvorišta sa ukupno 22 parking mesta od
-                  kojih su dva parking mesta za invalide.
+                  Ovaj objekat predstavlja novo moderno jezgro u samom centru
+                  grada.
+                  <br /> <br />
+                  Poslovno stambeni objekat se nalazi na 500m udaljenosti od
+                  opštine Rača i 800m od Karađorđevog doma.
                 </p>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-1 d-flex2 locationWrapper">
@@ -55,12 +55,19 @@ class Locations extends Component {
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 content-right">
                 <Heading className="col-lg-10" />
-                <p className="col-lg-10 col-md-12 col-sm-12 text-black">
-                  Objekat je spratnosti Po+Pr+4sp+Pk(Ps). Objekat je planiran sa
-                  stanovima različitih struktura od garsonjera do četvorosobnih
-                  stanova i različitih površina od 27,44m² do 107,20m².
-                  <br /> <br />U objektu je planiran stan prilagođen osobama sa
-                  posebnim potrebama. U zgradi postoji dva putnička lifta.
+                <p className="col-lg-11 col-md-12 col-sm-12 text-black">
+                  Stambeno poslovna zgrada Rača Residences se sastoji od
+                  poslovnog prostora i 42 stana u ulici Vojvode Pavla Cukića,
+                  dok je parking prostor planiran u zadnjem delu dvorišta sa 22
+                  parking mesta.
+                  <br /> <br />
+                  Objekat je spratnosti Su+Pr+4sp+Pk(Ps), u objektu su planirani
+                  stanovi različitih struktura od garsonjera do četvorosobnih
+                  stanova, površine od 27.44m2 do 104.20m2.
+                  <br /> <br />U zgradi postoji putnički lift nosivosti 630kg
+                  ili osam osoba. U prizemlju se nalazi ulaz za stanare zgrade
+                  iz ulice Vojvode Pavla Cukića i poslovni prostor površine
+                  111m2. <br /> <br /> Bruto površina objekata je 3685.89m2.
                 </p>
               </div>
             </div>
@@ -72,10 +79,17 @@ class Locations extends Component {
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-12 col-sm-12 content-left pl-md-3">
                 <Heading className="col-lg-10" />
-                <p className="col-lg-10 col-md-12 col-sm-12 text-black">
-                  U prizemlju se nalazi ulaz za stanare zgrade iz ulice Vojvode
-                  Pavla Cukića i poslovni prostor površine oko 111m2. Ukupna
-                  bruto površina objekta je 3685,89m2.
+                <p className="col-lg-11 col-md-12 col-sm-12 text-black">
+                  - Podovi u sobama stanova su u laminatu modernog dezena
+                  evropskog hrasta. <br /> - U kupatilama, kuhinjama i na
+                  terasama podovi su izrađeni od italijanskih granitnih pločica.{" "}
+                  <br /> - Sanitarije i vodovodne instalacije u kupatilima su
+                  izradjene od italijanskog i domaceg programa. <br /> -
+                  Unutrašnja vrata su od farbanog medijapana sa izolacijom.{" "}
+                  <br /> - Ulazna vrata stanova su sigurnosna sa multi-point
+                  sistemom zaključavanja. <br />
+                  Spoljna stolarija je od vrhunskih šesto-komornih PVC profila u
+                  beloj boji sa okovom renomiranih proizvođača.
                 </p>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12">
@@ -102,14 +116,16 @@ class Locations extends Component {
               <div className="col-lg-6 col-md-12 col-sm-12 content-right">
                 <Heading className="col-lg-10" />
                 <p className="col-lg-10 col-md-12 col-sm-12 text-black">
-                  Podovi u sobama stanova su od laminata u tonu hrasta, u
-                  kupatilima, kuhinjama i na terasama podovi su od granitnih
-                  pločica. Unutrašnja vrata su od farbanog medijapana. Ulazna
-                  vrata stanova su sigurnosna. Spoljna stolarija je od vrhunskih
-                  PVC profila. Fasadni zidovi objekta su termički izolovani od
-                  izolacionih ploča debljine 10cm. Fasada je završno obrađena
-                  kombinacijom drveta, dekorativnog fasadnog maltera. Krovni
-                  pokrivač je crep.
+                  Svaki od stanova poseduje sistem daljinskog grejanja.
+                  <br /> <br />
+                  Fasadni zidovi su termički izolovani od najsavremenijih
+                  izolacionih ploča koji pružaju vrhunsku energetsku efikasnost
+                  vašeg doma.
+                  <br /> <br />
+                  Fasada je završno obradjena kombinacijom drveta i dekorativnog
+                  fasadnog maltera.
+                  <br /> <br />
+                  Krovni pokrivač je izrađen od crepa.
                 </p>
               </div>
             </div>
