@@ -1,5 +1,0 @@
-otovris Visual Studio Code
-prevuces ovaj folder u njega
-pritisnes ctrl i ` (ispod esc) da se otvori terminal u Code-u
-kucas npm run dev
-cekas

@@ -43,9 +43,9 @@ class Levels extends Component {
             this.props.noGutters ? " no-gutters" : ""
           } col-md-10 m-auto py-3 py-md-5`}
         >
-          {[...Array(6).keys()].map((el, i) => (
-            <div className="col-lg-4 col-sm-6 levelThumb" key={i}>
-              <Link to={`/spratovi/sprat${i}`}>
+          {[...Array(7).keys()].map((el, i) => (
+            <div className="col-lg-4 col-sm-6 levelThumb mx-auto" key={i}>
+              <Link to={i === 6 ? `/spratovi/poslovni` : `/spratovi/sprat${i}`}>
                 <div className="property">
                   <div className="property-wrap">
                     <div className="post-thumbnail">
@@ -60,7 +60,9 @@ class Levels extends Component {
                         <div>
                           {" "}
                           <span>
-                            {i === 5
+                            {i === 6
+                              ? "POSLOVNI PROSTOR"
+                              : i === 5
                               ? "POVUČENI SPRAT"
                               : i === 0
                               ? `PRIZEMLJE`

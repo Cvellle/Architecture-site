@@ -1,6 +1,33 @@
 @import "../../../../public/assets/scss/base/variables";
 .locations {
   background-color: rgb(252, 252, 252);
+
+  img {
+    transition: 1s;
+    box-shadow: 10px 10px 20px 0px #888888;
+
+    &:hover {
+      opacity: 0.9;
+      transition: 0.5s;
+      box-shadow: 10px 10px 20px 0px #888888;
+    }
+  }
+
+  & .locationWrapper {
+    img {
+      filter: brightness(0.95);
+      border: 5px solid rgba(255, 217, 0, 0.356);
+      border-style: outset;
+      transition: 0.5s;
+
+      // &:hover {
+      //   transform: scale(1.1) translate3d(0, 0, 0);
+      //   -webkit-transform-style: preserve-3d;
+      //   -webkit-backface-visibility: hidden;
+      //   transition: 1s;
+      // }
+    }
+  }
 }
 .about-page-wrap {
   p {

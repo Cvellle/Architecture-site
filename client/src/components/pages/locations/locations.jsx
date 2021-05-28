@@ -13,9 +13,9 @@ class Locations extends Component {
     return (
       <div className="about-page-wrap locations">
         <Helmet>
-          <title>Rača residence | Lokacije</title>
+          <title>Rača residence | Lokacija</title>
         </Helmet>
-        <Breadcrumb title={"Lokacije"} />
+        <Breadcrumb title={"Lokacija"} />
 
         <div className="section-wrapper">
           <div className="container">
@@ -33,9 +33,9 @@ class Locations extends Component {
                   kojih su dva parking mesta za invalide.
                 </p>
               </div>
-              <div className="col-lg-6 col-md-12 col-sm-1 d-flex2">
+              <div className="col-lg-6 col-md-12 col-sm-1 d-flex2 locationWrapper">
                 <img
-                  className="shadow img-fluid ml-auto"
+                  className="img-fluid ml-auto"
                   src="/assets/images/locations/lokacija_1.jpg"
                   alt=""
                 />
@@ -48,7 +48,7 @@ class Locations extends Component {
             <div className="row align-items-center ">
               <div className="col-lg-6 col-md-12 col-sm-12">
                 <img
-                  className="shadow img-fluid "
+                  className="img-fluid "
                   src="/assets/images/locations/lokacija_2.jpg"
                   alt=""
                 />
@@ -59,9 +59,8 @@ class Locations extends Component {
                   Objekat je spratnosti Po+Pr+4sp+Pk(Ps). Objekat je planiran sa
                   stanovima različitih struktura od garsonjera do četvorosobnih
                   stanova i različitih površina od 27,44m² do 107,20m².
-                  <br /> <br />
-                  U objektu je planiran stan prilagođen osobama sa posebnim
-                  potrebama. U zgradi postoji dva putnička lifta.
+                  <br /> <br />U objektu je planiran stan prilagođen osobama sa
+                  posebnim potrebama. U zgradi postoji dva putnička lifta.
                 </p>
               </div>
             </div>
@@ -81,7 +80,7 @@ class Locations extends Component {
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12">
                 <img
-                  className="shadow img-fluid"
+                  className="img-fluid"
                   src="/assets/images/locations/lokacija_3.jpg"
                   alt=""
                 />
@@ -95,7 +94,7 @@ class Locations extends Component {
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-12 col-sm-12">
                 <img
-                  className="shadow img-fluid"
+                  className="img-fluid"
                   src="/assets/images/locations/lokacija_4.jpg"
                   alt=""
                 />

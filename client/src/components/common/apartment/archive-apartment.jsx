@@ -35,7 +35,9 @@ class ApartmentArchiveBlock extends Component {
 
   render() {
     const filtered = this.state.items.filter(
-      (el) => el.level == window.location.href.split("/").pop().slice(5)
+      window.location.href.split("/").pop() === "poslovni"
+        ? (el) => el.level == 6
+        : (el) => el.level == window.location.href.split("/").pop().slice(5)
     );
     return (
       <div className={`apartment-block-wrap`}>

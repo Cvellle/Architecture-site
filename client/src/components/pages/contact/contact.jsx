@@ -28,7 +28,7 @@ class ContactPage extends Component {
     };
 
     axios
-      .post(`/api/sendEmail`, dataToSubmit)
+      .post(`../php/post.php`, dataToSubmit)
       .then(this.setState({ sentText: "Vaša poruka je uspešno poslata!" }));
   };
 
@@ -55,8 +55,9 @@ class ContactPage extends Component {
                   </div>
                   <div className="content">
                     <span className="title text-uppercase">TELEFON :</span>
-                    {/* <p className="description">011/123123</p>
-                    <p className="description">063/123123</p> */}
+                    <a href="tel:066/390939" role="button">
+                      <p className="description">066/39 09 39</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -67,8 +68,8 @@ class ContactPage extends Component {
                   </div>
                   <div className="content">
                     <span className="title text-uppercase">ADRESA :</span>
-                    {/* <p className="description">Industriska zona, Zmič bb</p>
-                    <p className="description">35250, Paraćin</p> */}
+                    <p className="description">Vase Pelagića 7</p>
+                    <p className="description">11000, Beograd</p>
                   </div>
                 </div>
               </div>
@@ -79,8 +80,7 @@ class ContactPage extends Component {
                   </div>
                   <div className="content">
                     <span className="title text-uppercase">E-MAIL :</span>
-                    <p className="description">office@racaresidences.rs</p>
-                    {/* <p className="description">info@gening.com</p> */}
+                    <p className="description">office@gening.com</p>
                   </div>
                 </div>
               </div>

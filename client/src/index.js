@@ -69,7 +69,7 @@ class Root extends React.Component {
                   />
                   {/*Pages*/}
                   <Route
-                    path={`${process.env.PUBLIC_URL}/lokacije`}
+                    path={`${process.env.PUBLIC_URL}/lokacija`}
                     component={Locations}
                   />
                   <Route

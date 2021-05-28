@@ -38,20 +38,20 @@ class FooterOne extends Component {
                   <ul>
                     <li>
                       <span className="icon-list-icon">ADRESA:</span>
-                      {/* <span className="icon-list-text">
-                        Industriska zona, Zmič bb,
-                        <br /> 35250, Paraćin
-                      </span> */}
-                    </li>
-                    <li>
-                      <span className="icon-list-icon">TELEFON:</span>
-                      {/* <span className="icon-list-text"></span> */}
-                    </li>
-                    <li>
-                      <span className="icon-list-icon">E-MAIL:</span>
                       <span className="icon-list-text">
-                        office@racaresidences.rs
+                        Vase Pelagića 7
+                        <br /> 11000, Beograd
                       </span>
+                    </li>
+                    <li className="mt-4">
+                      <span className="icon-list-icon">TELEFON:</span>
+                      <a href="tel:066/390939" role="button">
+                        <span className="icon-list-text">066/39 09 39</span>
+                      </a>
+                    </li>
+                    <li className="mt-4">
+                      <span className="icon-list-icon">E-MAIL:</span>
+                      <span className="icon-list-text">office@gening.rs</span>
                     </li>
                   </ul>
                 </div>
@@ -93,7 +93,7 @@ class FooterOne extends Component {
                 </div> */}
               </div>
               <div className="col-lg-1 col-md-12" />
-              <div className="col-lg-4 col-md-12">
+              <div className="col-lg-4 col-md-12 mt-3 mt-md-0">
                 <h6 className="heading-title">POŠALJITE NAM PORUKU ZA UPIT</h6>
                 <ContactForm />
               </div>

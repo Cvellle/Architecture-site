@@ -18,7 +18,7 @@ class SliderHome extends Component {
             <div
               className="slider-image"
               style={{
-                backgroundImage: "url(/assets/imagewebp/theme/slide1.jpg)",
+                backgroundImage: "url(/assets/images/home-2/slider/slide1.jpg)",
               }}
             />
             <div className="container">
@@ -54,7 +54,7 @@ class SliderHome extends Component {
             <div
               className="slider-image"
               style={{
-                backgroundImage: "url(/assets/imagewebp/theme/slide2.jpg)",
+                backgroundImage: "url(/assets/images/home-2/slider/slide2.jpg)",
               }}
             />
             <div className="container">
