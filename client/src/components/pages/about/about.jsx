@@ -25,10 +25,14 @@ class AboutPage extends Component {
                 <p className="text-black">
                   Kupovina stana nije samo investicija u budućnost, već i
                   investicija u stvaranje doma kao simbola sigurnosti. Zato je
-                  važno imati poverenje u investitora, čija će Vas stručnost i
+                  važno imati poverenje u investitora, čija će vas stručnost i
                   reputacija učiniti bezbrižnim.
                 </p>
+               
+                
+               
                 <p>
+                Rastom i dobrim poslovanjem osigurati dobit za kompaniju.
                   Pristup svakom projektu karakterišu tri specifičnosti - visok
                   kvalitet, konkurentna cena i poštovanje rokova. Na ovaj način
                   težimo da očuvamo svoju reputaciju posvećenih i stručnih
@@ -48,7 +52,7 @@ class AboutPage extends Component {
         <div className="section-wrapper">
           <Parallax
             className={`section-parallax`}
-            bgImage={`/assets/images/about/family_4.jpg`}
+            bgImage={`/assets/images/about/family_5.jpg`}
             bgImageAlt="the cat"
             strength={500}
           >

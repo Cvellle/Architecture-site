@@ -26,6 +26,7 @@ class ApartmentsPlansSection extends Component {
     fetch("/api/our-values.json")
       .then((response) => response.json())
       .then((res) => {
+        console.log(res);
         this.data = res;
         this.setState({ isLoading: false });
       });
@@ -69,11 +70,12 @@ class ApartmentsPlansSection extends Component {
                     </div>
                     <div className="col-md-6">
                       <div className="apartment-img">
+                      <a href={data.url}>
                         <img
                           className="img-fluid"
                           src={data.image}
                           alt={data.title}
-                        />
+                        /></a>
                       </div>
                     </div>
                   </div>

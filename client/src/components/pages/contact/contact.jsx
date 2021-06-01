@@ -20,15 +20,15 @@ class ContactPage extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
     const dataToSubmit = {
-      message: this.state.message,
+      messages: this.state.message,
       name: this.state.name,
       email: this.state.email,
       phone: this.state.phone,
       address: this.state.address,
     };
 
-    axios
-      .post(`../php/post.php`, dataToSubmit)
+    axios.create({baseURL: 'http://api.racaresidences.rs/'})
+      .post('api/send-mail', dataToSubmit)
       .then(this.setState({ sentText: "Vaša poruka je uspešno poslata!" }));
   };
 

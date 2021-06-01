@@ -14,7 +14,7 @@ class Breadcrumb extends Component {
 
   render() {
     const { title, parent, bgImage } = this.props;
-    let defaultBg = `${process.env.PUBLIC_URL}/assets/imagewebp/breadcrumb/breadcrumb-1.webp`;
+    let defaultBg = `${process.env.PUBLIC_URL}/assets/imagewebp/breadcrumb/karadjordjevDom.jpg`;
     if (bgImage) {
       defaultBg = bgImage;
     }

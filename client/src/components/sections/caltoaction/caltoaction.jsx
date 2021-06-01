@@ -10,7 +10,7 @@ class CallToActionSection extends Component {
             U pretprodaji od 1.6.2021.
           </h2>
           <h1 className="text-uppercase text-white mb-4">
-            Useljiv u Julu 2022.
+            Useljiv u Avgustu 2022.
           </h1>
           <div className="btn-call-to-action">
             <a href="tel:066/390939" className="btn btn-dark" role="button">

@@ -1,7 +1,7 @@
 [
     {
         "title": "Garsonjera",
-        "description": "Objekat čine stanovi različitih struktura, različito raspoređeni po nivoima. Zgrada u ponudi ima konforne garsonjere, jednosobne, dvosobne, trosobne i četvorosobne stabmene jedinice kao i stanove na povučenom spratu",
+        "description": "Objekat čine stanovi različitih struktura, različito raspoređeni po nivoima. Zgrada u ponudi ima konforne garsonjere, jednosobne, dvosobne, trosobne i četvorosobne stabmene jedinice kao i stanove na povučenom spratu",   
         "attributes": [
             {
                 "name": "Sprat",
@@ -20,7 +20,8 @@
                 "option": "da"
             }
         ],
-        "image": "/assets/images/apartment/stanovi2/garsonjera.jpg"
+        "image": "/assets/images/apartment/5.sprat/stan38/stan_38.jpg",
+        "url": "stan/38"
     },
     {
         "title": "Jednosobni",
@@ -43,8 +44,9 @@
                 "option": "da"
             }
         ],
-        "image": "/assets/images/apartment/stanovi2/jednosoban.jpg",
-        "position": "left"
+        "image": "/assets/images/apartment/0.prizemlje/stan5/stan_5.jpg",
+        "position": "left",
+        "url": "stan/5"
     },
     {
         "title": "Dvosobni",
@@ -67,7 +69,8 @@
                 "option": "da"
             }
         ],
-        "image": "/assets/images/apartment/stanovi2/dvosoban.jpg"
+        "image": "/assets/images/apartment/3.sprat/stan22/stan_22.jpg",
+        "url": "stan/22"
     },
     {
         "title": "Trosobni",
@@ -90,8 +93,9 @@
                 "option": "da"
             }
         ],
-        "image": "/assets/images/apartment/stanovi2/trosoban.jpg",
-        "position": "left"
+        "image": "/assets/images/apartment/1.sprat/stan7/stan_7.jpg",
+        "position": "left",
+        "url": "stan/7"
     },
     {
         "title": "Četvorosobni",
@@ -114,6 +118,7 @@
                 "option": "da"
             }
         ],
-        "image": "/assets/images/apartment/stanovi2/cetvorosoban.jpg"
+        "image": "/assets/images/apartment/5.sprat/stan37/stan_37.jpg",
+        "url": "stan/37"
     }
 ]

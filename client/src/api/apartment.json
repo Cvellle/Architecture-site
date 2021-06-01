@@ -2544,7 +2544,7 @@
             "./assets/images/apartment/6.poslovni/stan1/so1.jpg",
             "./assets/images/apartment/6.poslovni/stan1/orijentacija.jpg"
         ],
-        "description": "STAN 43 - prodajni prostor",
+        "description": "Prodajni prostor",
         "rooms": [
             {
                 "room": "prodajni prostor",

@@ -8,28 +8,28 @@ class CarouselPage2 extends Component {
     this.data = [
       {
         image: `/assets/images/slider2/indexGallery1.jpg`,
-        title: `Razne vrste pogodnosti, \n Mnoge zanimljive aktivnosti `,
+        title: `Novo moderno jezgro u samom centru grada`,
         description:
           "Naša definicija dizajna teži tome da konstantno napreduje daljem razvijanju iskustva i ugođaja naših klijenata na našem prostoru.",
         link: "#"
       },
       {
         image: `/assets/images/slider2/indexGallery2.jpg`,
-        title: `Razne vrste pogodnosti, \n Mnoge zanimljive aktivnosti `,
+        title: `Novo moderno jezgro u samom centru grada`,
         description:
           "Naša definicija dizajna teži tome da konstantno napreduje daljem razvijanju iskustva i ugođaja naših klijenata na našem prostoru.",
         link: "#"
       },
       {
         image: `/assets/images/slider2/indexGallery3.jpg`,
-        title: `Razne vrste pogodnosti, \n Mnoge zanimljive aktivnosti `,
+        title: `Novo moderno jezgro u samom centru grada`,
         description:
           "Naša definicija dizajna teži tome da konstantno napreduje daljem razvijanju iskustva i ugođaja naših klijenata na našem prostoru.",
         link: "#"
       },
       {
         image: `/assets/images/slider2/indexGallery4.jpg`,
-        title: `Razne vrste pogodnosti, \n Mnoge zanimljive aktivnosti `,
+        title: `Novo moderno jezgro u samom centru grada`,
         description:
           "Naša definicija dizajna teži tome da konstantno napreduje daljem razvijanju iskustva i ugođaja naših klijenata na našem prostoru.",
         link: "#"

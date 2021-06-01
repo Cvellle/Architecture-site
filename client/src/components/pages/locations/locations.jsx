@@ -80,7 +80,9 @@ class Locations extends Component {
               <div className="col-lg-6 col-md-12 col-sm-12 content-left pl-md-3">
                 <Heading className="col-lg-10 mb-2" />
                 <p className="col-lg-11 col-md-12 col-sm-12 text-black">
-                  - Podovi u sobama stanova su u laminatu modernog dezena
+                  - Prozori sa dvoslojnim nisko-emisionim staklom koje absorbuje toplotu, bele boje sa aluminijumskom roletnom <br /><br />
+
+                  - Podovi u sobama stanova su od laminata modernog dezena
                   evropskog hrasta.
                   <span className="d-block mt-3">
                     - U kupatilama, kuhinjama i na terasama podovi su izrađeni
@@ -88,7 +90,7 @@ class Locations extends Component {
                   </span>
                   <span className="d-block mt-3">
                     - Sanitarije i vodovodne instalacije u kupatilima su
-                    izradjene od italijanskog i domaceg programa.
+                    izrađene od italijanskog i domaćeg programa.
                   </span>
                   <span className="d-block mt-3">
                     - Unutrašnja vrata su od farbanog medijapana sa izolacijom.
@@ -133,7 +135,7 @@ class Locations extends Component {
                   izolacionih ploča koji pružaju vrhunsku energetsku efikasnost
                   vašeg doma.
                   <br /> <br />
-                  Fasada je završno obradjena kombinacijom drveta i dekorativnog
+                  Fasada je završno obrađena kombinacijom drveta i dekorativnog
                   fasadnog maltera.
                   <br /> <br />
                   Krovni pokrivač je izrađen od crepa.

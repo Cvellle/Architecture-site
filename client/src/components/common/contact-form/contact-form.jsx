@@ -23,7 +23,7 @@ class ContactForm extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
     const dataToSubmit = {
-      message: this.state.message,
+      messages: this.state.message,
       name: this.state.name,
       email: this.state.email,
       phone: this.state.phone,
@@ -31,7 +31,8 @@ class ContactForm extends Component {
     };
 
     axios
-      .post(`/api/sendEmail`, dataToSubmit)
+    .create({baseURL: 'http://api.racaresidences.rs/'})
+      .post('api/send-mail', dataToSubmit)
       .then(this.setState({ sentText: "Vaša poruka je uspešno poslata!" }));
   };
 
@@ -66,7 +67,7 @@ class ContactForm extends Component {
     this.form.validateAll();
 
     const dataToSubmit = {
-      message: this.state.message,
+      messages: this.state.message,
       name: this.state.name,
       email: this.state.email,
       phone: this.state.phone,
@@ -74,7 +75,8 @@ class ContactForm extends Component {
     };
 
     axios
-      .post(`/api/sendEmail`, dataToSubmit)
+    .create({baseURL: 'http://api.racaresidences.rs/'})
+      .post('api/send-mail', dataToSubmit)
       .then(this.setState({ sentText: "Vaša poruka je uspešno poslata!" }));
 
     if (this.checkBtn.context._errors.length === 0) {

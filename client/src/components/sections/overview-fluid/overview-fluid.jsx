@@ -17,7 +17,7 @@ class OverviewFluidSection extends Component {
               </p>
               <p className="mt-4">
                 Sve što vam je važno je na dohvat ruke, a jedna od najvećih
-                prednosti ove lokacije je njena izuzetna povezansot sa lokalnim
+                prednosti ove lokacije je njena izuzetna povezanost sa lokalnim
                 okruženjem i dostupnosti sa svim što vam je potrebno. Zato lako
                 i brzo stižete od posla do stana i od stana do slobodnog vremena
                 provedenog u prirodi, odmoru ili druženju sa prijateljima, koja
