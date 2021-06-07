@@ -13,28 +13,29 @@ class ContactPage extends Component {
       email: "",
       phone: "",
       address: "",
-      sentText: "",
+      sentText: ""
     };
   }
 
-  handleSubmit = (e) => {
+  handleSubmit = e => {
     e.preventDefault();
     const dataToSubmit = {
       messages: this.state.message,
       name: this.state.name,
       email: this.state.email,
       phone: this.state.phone,
-      address: this.state.address,
+      address: this.state.address
     };
 
-    axios.create({baseURL: 'http://api.racaresidences.rs/'})
-      .post('api/send-mail', dataToSubmit)
+    axios
+      .create({ baseURL: "http://api.racaresidences.rs/" })
+      .post("api/send-mail", dataToSubmit)
       .then(this.setState({ sentText: "Vaša poruka je uspešno poslata!" }));
   };
 
-  changeString = (e) => {
+  changeString = e => {
     this.setState({
-      [e.target.dataset.kind]: e.target.value,
+      [e.target.dataset.kind]: e.target.value
     });
   };
 
@@ -101,7 +102,7 @@ class ContactPage extends Component {
                   data-kind="message"
                 />
               </div>
-              <div className="col-6 mb-3">
+              <div className="col-md-6 mb-3">
                 <input
                   type="text"
                   className="form-control"
@@ -111,7 +112,7 @@ class ContactPage extends Component {
                   data-kind="name"
                 />
               </div>
-              <div className="col-6 mb-3">
+              <div className="col-md-6 mb-3">
                 <input
                   type="email"
                   className="form-control"
@@ -121,7 +122,7 @@ class ContactPage extends Component {
                   data-kind="email"
                 />
               </div>
-              <div className="col-6 mb-3">
+              <div className="col-md-6 mb-3">
                 <input
                   type="tel"
                   pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
@@ -132,7 +133,7 @@ class ContactPage extends Component {
                   data-kind="phone"
                 />
               </div>
-              <div className="col-6 mb-3">
+              <div className="col-md-6 mb-3">
                 <input
                   type="text"
                   className="form-control"
@@ -154,7 +155,9 @@ class ContactPage extends Component {
                   Pošaljite poruku <i className="opal-icon-arrow" />
                 </button>
               </div>
-              <p className="col-12 mt-3 text-center">{this.state.sentText}</p>
+              <p className="col-12 mt-3 text-center">
+                {this.state.sentText}
+              </p>
             </div>
           </form>
         </div>
