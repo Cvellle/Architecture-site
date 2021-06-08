@@ -80,10 +80,16 @@ class Locations extends Component {
               <div className="col-lg-6 col-md-12 col-sm-12 content-left pl-md-3">
                 <Heading className="col-lg-10 mb-2" />
                 <p className="col-lg-11 col-md-12 col-sm-12 text-black">
-                  - Prozori sa dvoslojnim nisko-emisionim staklom koje absorbuje toplotu, bele boje sa aluminijumskom roletnom <br /><br />
-
-                  - Podovi u sobama stanova su od laminata modernog dezena
-                  evropskog hrasta.
+                  - SPOLJNA STOLARIJA NA STANOVIMA JE OD PVC ŠESTOKOMORNIH
+                  PROFILA BELE BOJE, SA DVOSLOJNIM NISKOEMISIONIM STAKLOM,
+                  PUNJENIM ARGONOM, ROLETNA JE ALUMINIJUMSKA. <br />
+                  <br />
+                  - NA POSLOVNOM PROSTORU I ULAZNA VRATA U ZGRADU SU OD
+                  ALUMINIJUMSKIH PROFILA U BOJI ANTRACIT.
+                  <span className="d-block mt-3">
+                    - Podovi u sobama stanova su od laminata modernog dezena
+                    evropskog hrasta.
+                  </span>
                   <span className="d-block mt-3">
                     - U kupatilama, kuhinjama i na terasama podovi su izrađeni
                     od italijanskih granitnih pločica.
@@ -98,10 +104,6 @@ class Locations extends Component {
                   <span className="d-block mt-3">
                     - Ulazna vrata stanova su sigurnosna sa multi-point sistemom
                     zaključavanja.
-                  </span>
-                  <span className="d-block mt-3">
-                    - Spoljna stolarija je od vrhunskih šesto-komornih PVC
-                    profila u beloj boji sa okovom renomiranih proizvođača.
                   </span>
                 </p>
               </div>
