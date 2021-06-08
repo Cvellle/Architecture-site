@@ -9,10 +9,17 @@ class ApartmentsPage extends Component {
   render() {
     return (
       <div className={`apartments-page-wrap`}>
+        asd
         <Breadcrumb title={"Stanovi"} />
         <Helmet>
           <title>Rača residence | Stanovi</title>
+          {/* <meta
+            name="keywords"
+            content="raca, stanovi, residences, racaresidences, prodaja stanova"
+          />
+          <meta name="description" content="Novi stanova Raca." /> */}
         </Helmet>
+        asd
         <ContentWrap isBoxed={true}>
           <ApartmentArchiveBlock number={50} />
         </ContentWrap>
@@ -20,9 +27,9 @@ class ApartmentsPage extends Component {
     );
   }
 }
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    items: state.apartments.apartments
+    items: state.apartments.apartments,
   };
 };
 

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import _ from "lodash";
 import Breadcrumb from "../../common/breadcrumb/breadcrumb";
+import OurValuesSection from "../../sections/ourvalues/ourvalues";
 
 const getPageId = () => {
   let hash = window.location.hash;
@@ -80,6 +81,9 @@ class Levels extends Component {
             </div>
           ))}
         </div>{" "}
+        <div>
+          <OurValuesSection />
+        </div>
       </div>
     );
   }

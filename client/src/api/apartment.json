@@ -13,7 +13,7 @@
             "./assets/images/apartment/0.prizemlje/stan1/so1.jpg"
         ],
         "description": "STAN 01 - jednoiposoban",
-        "roomsNumber": 1,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "hodnik",
@@ -144,8 +144,8 @@
             "./assets/images/apartment/0.prizemlje/stan3/stan_3.jpg",
             "./assets/images/apartment/0.prizemlje/stan3/so3.jpg"
         ],
-        "description": "STAN 02 - dvoiposoban",
-        "roomsNumber": 2,
+        "description": "STAN 03 - dvoiposoban",
+        "roomsNumber": 3,
         "rooms": [
             {
                 "room": "hodnik",
@@ -208,7 +208,7 @@
             "./assets/images/apartment/0.prizemlje/stan4/so4.jpg"
         ],
         "description": "STAN 04 - jednoiposoban",
-        "roomsNumber": 1,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "dnevni boravak sa trpezarijom",
@@ -442,7 +442,7 @@
             "./assets/images/apartment/1.sprat/stan8/so8.jpg"
         ],
         "description": "STAN 08 - jednoiposoban",
-        "roomsNumber": 1,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "višenamenska prostorija",
@@ -493,7 +493,7 @@
             "./assets/images/apartment/1.sprat/stan9/so9.jpg"
         ],
         "description": "STAN 09 - jednoiposoban",
-        "roomsNumber": 1,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "hodnik",
@@ -688,7 +688,7 @@
             "./assets/images/apartment/1.sprat/stan12/so12.jpg"
         ],
         "description": "STAN 12 - jednoiposoban",
-        "roomsNumber": 1,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "dnevni boravak sa trpezarijom",
@@ -751,7 +751,7 @@
             "./assets/images/apartment/1.sprat/stan13/so13.jpg"
         ],
         "description": "STAN 13 - jednoiposoban",
-        "roomsNumber": 1,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "dnevni boravak",
@@ -928,7 +928,7 @@
             "./assets/images/apartment/2.sprat/stan16/so16.jpg"
         ],
         "description": "STAN 16 - jednoiposoban",
-        "roomsNumber": 1,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "višenamenska prostorija",
@@ -979,7 +979,7 @@
             "./assets/images/apartment/2.sprat/stan17/so17.jpg"
         ],
         "description": "STAN 17 - dvosoban",
-        "roomsNumber": 3,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "hodnik",
@@ -1180,7 +1180,7 @@
             "./assets/images/apartment/2.sprat/stan20/so20.jpg"
         ],
         "description": "STAN 20 - jednoiposoban",
-        "roomsNumber": 1,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "dnevni boravak sa trpezarijom",
@@ -1243,7 +1243,7 @@
             "./assets/images/apartment/2.sprat/stan21/so21.jpg"
         ],
         "description": "STAN 21 - dvosoban",
-        "roomsNumber": 3,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "dnevni boravak",
@@ -1420,7 +1420,7 @@
             "./assets/images/apartment/3.sprat/stan24/so24.jpg"
         ],
         "description": "STAN 24 - jednoiposoban",
-        "roomsNumber": 1,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "višenamenska prostorija",
@@ -1471,7 +1471,7 @@
             "./assets/images/apartment/3.sprat/stan25/so25.jpg"
         ],
         "description": "STAN 25 - dvosoban",
-        "roomsNumber": 3,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "hodnik",
@@ -1666,7 +1666,7 @@
             "./assets/images/apartment/3.sprat/stan28/so28.jpg"
         ],
         "description": "STAN 28 - jednoiposoban",
-        "roomsNumber": 1,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "dnevni boravak sa trpezarijom",
@@ -1729,7 +1729,7 @@
             "./assets/images/apartment/3.sprat/stan29/so29.jpg"
         ],
         "description": "STAN 29 - dvosoban",
-        "roomsNumber": 3,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "dnevni boravak",
@@ -1918,7 +1918,7 @@
             "./assets/images/apartment/4.sprat/stan32/so32.jpg"
         ],
         "description": "STAN 32 - dvoiposoban",
-        "roomsNumber": 2,
+        "roomsNumber": 3,
         "rooms": [
             {
                 "room": "hodnik",
@@ -2125,7 +2125,7 @@
             "./assets/images/apartment/4.sprat/stan35/so35.jpg"
         ],
         "description": "STAN 35 - jednoiposoban",
-        "roomsNumber": 1,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "dnevni boravak sa trpezarijom",
@@ -2188,7 +2188,7 @@
             "./assets/images/apartment/4.sprat/stan36/so36.jpg"
         ],
         "description": "STAN 36 - jednoiposoban",
-        "roomsNumber": 1,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "dnevni boravak",
@@ -2359,7 +2359,7 @@
             "./assets/images/apartment/5.sprat/stan39/so39.jpg"
         ],
         "description": "STAN 39 - jednoiposoban",
-        "roomsNumber": 1,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "višenamenska prostorija",
@@ -2404,7 +2404,7 @@
             "./assets/images/apartment/5.sprat/stan40/so40.jpg"
         ],
         "description": "STAN 40 - dvoiposoban",
-        "roomsNumber": 2,
+        "roomsNumber": 3,
         "rooms": [
             {
                 "room": "višenamenska prostorija",
@@ -2467,7 +2467,7 @@
             "./assets/images/apartment/5.sprat/stan41/so41.jpg"
         ],
         "description": "STAN 41 - dvosoban",
-        "roomsNumber": 3,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "hodnik",
@@ -2536,7 +2536,7 @@
             "./assets/images/apartment/5.sprat/stan42/so42.jpg"
         ],
         "description": "STAN 42 - jednoiposoban",
-        "roomsNumber": 1,
+        "roomsNumber": 2,
         "rooms": [
             {
                 "room": "dnevni boravak",

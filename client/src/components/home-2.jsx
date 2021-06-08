@@ -34,7 +34,7 @@ class Home2 extends Component {
           <Levels />
         </div>
         <div className="section-wrapper">
-          <ApartmentsPlansSection />
+          {/* <ApartmentsPlansSection /> */}
         </div>
         <div className="section-wrapper">
           <CarouselPage2 />
