@@ -9,7 +9,6 @@ class ApartmentsPage extends Component {
   render() {
     return (
       <div className={`apartments-page-wrap`}>
-        asd
         <Breadcrumb title={"Stanovi"} />
         <Helmet>
           <title>Rača residence | Stanovi</title>
@@ -19,7 +18,6 @@ class ApartmentsPage extends Component {
           />
           <meta name="description" content="Novi stanova Raca." /> */}
         </Helmet>
-        asd
         <ContentWrap isBoxed={true}>
           <ApartmentArchiveBlock number={50} />
         </ContentWrap>
